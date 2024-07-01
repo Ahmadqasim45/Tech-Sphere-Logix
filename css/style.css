@@ -4360,6 +4360,7 @@ textarea.form-control {
   -webkit-transition: all 0.3s ease;
   -ms-transition: all 0.3s ease;
   transition: all 0.3s ease;
+  margin-right: 30px;
 }
 
 .blog-entry .text .tag {
