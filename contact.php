@@ -376,7 +376,7 @@ if (isset($_POST['submit'])) {
         // Server settings
         $mail->SMTPDebug = SMTP::DEBUG_OFF;                   // Disable verbose debug output on live server
         $mail->isSMTP();                                      // Send using SMTP
-        $mail->Host = 'https://ahmadqasim45.github.io/Tech-Sphere-Logix/';                       // Set the SMTP server to send through
+        $mail->Host = 'smtp.gmail.com';                       // Set the SMTP server to send through
         $mail->SMTPAuth = true;                               // Enable SMTP authentication
         $mail->Username = 'ahmedqasim45ah@gmail.com';             // SMTP username
         $mail->Password = 'ssashzcqhsjsivsi';                // SMTP password
