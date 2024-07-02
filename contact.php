@@ -84,7 +84,7 @@
 
 					<li class="nav-item"><a href="portfolio.html" class="nav-link">Portfolio</a></li>
 					<li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
-					<li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+					<li class="nav-item"><a href="contact.php" class="nav-link">Contact</a></li>
 
 
 
@@ -347,6 +347,57 @@
 		integrity="sha512-jGCTpDpBAYDGNYR5ztKt4BQPGef1P0giN6ZGVUi835kFF88FOmmn8jBQWNgrNd8g/Yu421NdgWhwQoaOPFflDw=="
 		data-cf-beacon='{"rayId":"7e37d8d11f9a29f5","version":"2023.4.0","b":1,"token":"cd0b4b3a733644fc843ef0b185f98241","si":100}'
 		crossorigin="anonymous"></script>
+		<?php
+
+//Import PHPMailer classes into the global namespace
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\SMTP;
+use PHPMailer\PHPMailer\Exception;
+
+if (isset($_POST['submit'])) {
+    $name = htmlspecialchars($_POST['name']);
+    $email = htmlspecialchars($_POST['email']);
+    $subject = htmlspecialchars($_POST['subject']);
+    $msg = htmlspecialchars($_POST['message']);
+
+    //Load Composer's autoloader
+    require 'php mailer/Exception.php';
+    require 'php mailer/PHPMailer.php';
+    require 'php mailer/SMTP.php';
+
+    //Create an instance; passing `true` enables exceptions
+    $mail = new PHPMailer(true);
+
+    try {
+        //Server settings
+        $mail->SMTPDebug = SMTP::DEBUG_SERVER;                      //Enable verbose debug output
+        $mail->isSMTP();                                            //Send using SMTP
+        $mail->Host = 'smtp.gmail.com';                             //Set the SMTP server to send through
+        $mail->SMTPAuth = true;                                     //Enable SMTP authentication
+        $mail->Username = 'ahmedqasim45ah@gmail.com';               //SMTP username
+        $mail->Password = 'ssashzcqhsjsivsi';                       //SMTP password
+        $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;            //Enable implicit TLS encryption
+        $mail->Port = 465;                                          //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
+
+        //Recipients
+        $mail->setFrom($email, $name);
+        $mail->addAddress('softicon.pk@gmail.com', '');  //Add a recipient
+
+        //Content
+        $mail->isHTML(true);                                  //Set email format to HTML
+        $mail->Subject = $subject;
+        $mail->Body = $msg;  // use the message from the form as the body
+        $mail->AltBody = strip_tags($msg);  // use plain text for non-HTML clients
+
+        $mail->send();
+        echo 'Message has been sent';
+    } catch (Exception $e) {
+        echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
+    }
+} else {
+    echo 'Please fill in the form and submit.';
+}
+?>
 
 
 
