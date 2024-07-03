@@ -4943,6 +4943,8 @@ textarea.form-control {
     color: #555;
     border-radius: 4px;
     transition:  0.3s, color 0.3s;
+    width: 100px;
+    text-align: center;
 }
 
 #portfolio-filters .filter-active {
