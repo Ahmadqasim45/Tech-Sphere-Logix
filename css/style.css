@@ -2470,6 +2470,17 @@ h5,
     padding-bottom: 0;
   }
 }
+@media screen and (min-width:576px) and (max-width:1282px) {
+  .ftco-services .services{
+    
+      margin-top: -100px;
+      background: #fff;
+    }
+    
+
+    }
+
+
 @media screen and (min-width:0px) and (max-width:576px) {
   
   .ftco-navbar-light{
@@ -2480,11 +2491,10 @@ h5,
     height: fit-content;
     position: relative;
   }
-  .ftco-services .services{
-    left: 0;
-    position: absolute;
-    top: 10%;
-  }
+ 
+    .nav-link{
+      margin-left: 10px;
+    }
 }
 @media screen and (min-width:576px) and (max-width:1100px) {
   
@@ -3222,10 +3232,7 @@ h5,
   max-width: 1290px;
 }
 
-.ftco-services .services {
-  margin-top: -100px;
-  background: #fff;
-}
+
 
 .services {
   -moz-transition: all 0.3s ease;
