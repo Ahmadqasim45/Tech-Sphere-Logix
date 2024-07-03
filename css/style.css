@@ -1175,6 +1175,7 @@ fieldset:disabled a.btn {
 
 .navbar {
   position: relative;
+  background: #09171c;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1206,8 +1207,7 @@ fieldset:disabled a.btn {
 
 .navbar-brand {
   display: inline-block;
-  padding-top: 0.3125rem;
-  padding-bottom: 0.3125rem;
+  padding: 0px !important;
   margin-right: 1rem;
   font-size: 1.25rem;
   line-height: inherit;
@@ -4899,7 +4899,7 @@ textarea.form-control {
   }
 }
 #tsl-logo{
-  width: 150px;
+  width: 75px;
   /* position: absolute; */
   
   /* top: 0; */
@@ -5015,10 +5015,10 @@ textarea.form-control {
 }
 @media screen  and (min-width:0px) and (max-width:576px){
   #tsl-logo{
-    width: 90px;
+    width: 45px;
     /* position: absolute; */
-    position: relative;
-    top: 0;
+  margin: 5px;
+    
   }
   
 }

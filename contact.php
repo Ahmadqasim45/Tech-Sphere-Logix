@@ -19,7 +19,7 @@
 	<link rel="stylesheet" href="css/magnific-popup.css">
 	<link rel="stylesheet" href="css/flaticon.css">
 	<link rel="stylesheet" href="css/style.css">
-	<link  rel="icon" href="images/TSL Png.png" type="image/x-icon">z
+	<link  rel="icon" href="images/TSL Png.png" type="image/x-icon">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
 		integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
 		crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -348,58 +348,42 @@
 		data-cf-beacon='{"rayId":"7e37d8d11f9a29f5","version":"2023.4.0","b":1,"token":"cd0b4b3a733644fc843ef0b185f98241","si":100}'
 		crossorigin="anonymous"></script>
 		<?php
-
-// Enable error reporting for debugging on the live server
-error_reporting(E_ALL);
-ini_set('display_errors', 1);
-
-// Import PHPMailer classes into the global namespace
 use PHPMailer\PHPMailer\PHPMailer;
-use PHPMailer\PHPMailer\SMTP;
 use PHPMailer\PHPMailer\Exception;
+
+
+
 
 if (isset($_POST['submit'])) {
     $name = htmlspecialchars($_POST['name']);
     $email = htmlspecialchars($_POST['email']);
     $subject = htmlspecialchars($_POST['subject']);
-    $msg = htmlspecialchars($_POST['message']);
+    $message = htmlspecialchars($_POST['message']);
+	require 'php mailer\Exception.php';
+require 'php mailer\PHPMailer.php';
+require 'php mailer\SMTP.php';
 
-    // Load Composer's autoloader
-    require 'path/to/PHPMailer/src/Exception.php';
-    require 'path/to/PHPMailer/src/PHPMailer.php';
-    require 'path/to/PHPMailer/src/SMTP.php';
-
-    // Create an instance; passing `true` enables exceptions
     $mail = new PHPMailer(true);
 
     try {
         // Server settings
-        $mail->SMTPDebug = SMTP::DEBUG_OFF;                   // Disable verbose debug output on live server
-        $mail->isSMTP();                                      // Send using SMTP
-        $mail->Host = 'smtp.gmail.com';                       // Set the SMTP server to send through
-        $mail->SMTPAuth = true;                               // Enable SMTP authentication
-        $mail->Username = 'ahmedqasim45ah@gmail.com';             // SMTP username
-        $mail->Password = 'ssashzcqhsjsivsi';                // SMTP password
-        $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;      // Enable implicit TLS encryption
-        $mail->Port = 465;                                    // TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
+        $mail->isSMTP();
+        $mail->Host = 'smtp.gmail.com';
+        $mail->SMTPAuth = true;
+        $mail->Username = 'ahmedqasim45ah@gmail.com';
+        $mail->Password = 'ssashzcqhsjsivsi';
+        $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
+        $mail->Port = 587;
 
         // Recipients
         $mail->setFrom($email, $name);
-        $mail->addAddress('softicon.pk@gmail.com', 'Recipient Name'); // Add a recipient
+        $mail->addAddress('ahmedqasim45ah@gmail.com', 'Recipient Name');
 
         // Content
-        $mail->isHTML(true);                                  // Set email format to HTML
+        $mail->isHTML(true);
         $mail->Subject = $subject;
-        $mail->Body    = '<h1>Contact Form Submission</h1>' .
-                         '<p><strong>Name:</strong> ' . $name . '</p>' .
-                         '<p><strong>Email:</strong> ' . $email . '</p>' .
-                         '<p><strong>Subject:</strong> ' . $subject . '</p>' .
-                         '<p><strong>Message:</strong> ' . nl2br($msg) . '</p>';
-        $mail->AltBody = 'Contact Form Submission' . "\n" .
-                         'Name: ' . $name . "\n" .
-                         'Email: ' . $email . "\n" .
-                         'Subject: ' . $subject . "\n" .
-                         'Message: ' . $msg;
+        $mail->Body = $message;
+        $mail->AltBody = strip_tags($message);
 
         $mail->send();
         echo 'Message has been sent';
@@ -410,6 +394,7 @@ if (isset($_POST['submit'])) {
     echo 'Please fill in the form and submit.';
 }
 ?>
+
 
 
    
