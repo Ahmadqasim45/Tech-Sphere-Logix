@@ -1266,6 +1266,7 @@ fieldset:disabled a.btn {
 .navbar-toggler:hover,
 .navbar-toggler:focus {
   text-decoration: none;
+  
 }
 
 @media (max-width: 991.98px) {
@@ -5046,4 +5047,15 @@ textarea.form-control {
   padding: 8px;
   font-weight: 600;
   margin-top: 20px;
+}
+#btn-bar{
+  margin-right: 20px;
+  text-align: center;
+  width: 30px;
+  background-color: transparent;
+}
+#icon-nav{
+  font-size: 25px;
+  color: white;
+  position: relative;
 }
