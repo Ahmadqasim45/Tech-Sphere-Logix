@@ -2476,6 +2476,10 @@ h5,
       margin-top: -100px;
       background: #fff;
     }
+    .pb-lg-0{
+      margin-left: 40%;
+    }
+
     
 
     }
@@ -2490,6 +2494,9 @@ h5,
     width: 100px;
     height: fit-content;
     position: relative;
+  }
+  .mb-4{
+    margin-left: 65px;
   }
  
     .nav-link{
@@ -5011,6 +5018,7 @@ textarea.form-control {
   margin-top: 50px;
     margin: 0 0 10px;
     font-size: 18px;
+    padding-bottom: 10px;
 }
 
 .portfolio-hover a {
