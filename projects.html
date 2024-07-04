@@ -37,28 +37,28 @@
 
 <body>
 
-	<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+	<nav class="navbar navbar-expand-lg ftco_navbar ftco-navbar-light" id="ftco-navbar">
 		<div class="container">
-			<a class="navbar-brand" href="index.html"><img id="tsl-logo" class="img-fluid rounded-circle"
-					src="images/tsl.png" alt=""></a>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav"
-				aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="oi oi-menu"></span> Menu
+			<a class="navbar-brand" href="index.html"><img id="tsl-logo" class="img-fluid" src="images/short2.png"
+					alt=""></a>
+			<button style="box-shadow: none;" id="btn-bar" class="navbar-toggler" type="button" data-toggle="collapse"
+				data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+				<i id="icon-nav" class="fa-solid fa-bars"></i>
 			</button>
 			<div class="collapse navbar-collapse" id="ftco-nav">
 				<ul class="navbar-nav ml-auto">
-					<li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+					<li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
 					<li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
 					<li class="nav-item"><a href="services.html" class="nav-link">Services</a></li>
-					<li class="nav-item active"><a href="portfolio.html" class="nav-link">Portfolio</a></li>
-					<li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
-					<li class="nav-item"><a href="contact.php" class="nav-link">Contact</a></li>
+					<li class="nav-item"><a href="projects.html" class="nav-link">Our Projects</a></li>
+					<li class="nav-item"><a href="portfolio.html" class="nav-link">Portfolio</a></li>
+					
+					<li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
 
 				</ul>
 			</div>
 		</div>
 	</nav>
-
 	<section class="hero-wrap hero-wrap-2" style="background-image: url('images/bg_2.jpg');">
 		<div class="overlay"></div>
 		<div class="container">
@@ -74,82 +74,144 @@
 	</section>
 	<!-- projects section -->
 	<!-- Portfolio Section -->
-	<section id="portfolio" class="portfolio section-bg">
-		<div class="container">
-			<div class="section-title">
-				<h2>Our Past Projects</h2>
-				<p>Magnam dolores commodi suscipit...</p>
-			</div>
-			<div class="row" data-aos="fade-up">
-				<div class="col-lg-12 d-flex justify-content-center">
-					<ul id="portfolio-filters" class="d-flex flex-wrap list-unstyled">
-						<li data-filter="*" class="filter-active">All</li>
-						<li data-filter=".filter-app">App</li>
-						<li data-filter=".filter-web">Web</li>
-						<!-- <li data-filter=".filter-blog">Blog Sites</li> -->
-						<li data-filter=".filter-app">Wordpress</li>
-						<li data-filter=".filter-web">Shopify</li>
-						<li data-filter=".filter-blog">Web Flow</li>
-					</ul>
+		   <!-- our past projects -->
+		   <section id="portfolio" class="portfolio section-bg">
+			<div class="container">
+				<div class="section-title">
+					<h2>Our Past Projects</h2>
+					<p> Crafting sleek web apps, stunning graphics, and impactful SSM strategies. Our cutting-edge IT
+						solutions elevate your digital presence, ensuring innovation and excellence for your brand's growth
+						and success.</p>
 				</div>
-			</div>
-			<div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
-				<div class="col-lg-4 col-md-6 portfolio-item filter-web">
-					<div class="portfolio-wrap">
-						<img src="images\construction.png" class="img-fluid" alt="Site Thumbnail"
-							style="height: 211px;">
-						<div class="portfolio-hover">
-							<h5>Site Name</h5>
-							<a id="project-link" href="https://www.pakebs.com/" target="_blank"
-								rel="noopener noreferrer">Visit Site</a>
-						</div>
+				<div class="row" data-aos="fade-up">
+					<div class="col-lg-12 d-flex justify-content-center">
+						<ul id="portfolio-filters" class="d-flex flex-wrap list-unstyled justify-content-center">
+							<li data-filter="*" class="filter-active">All</li>
+							<li data-filter=".filter-app">App</li>
+							<li data-filter=".filter-web">Web</li>
+							<!-- <li data-filter=".filter-blog">Blog Sites</li> -->
+							<li data-filter=".filter-wordpress">Wordpress</li>
+							<li data-filter=".filter-shopify">Shopify</li>
+							<li data-filter=".filter-webf">Web Flow</li>
+							<li data-filter=".filter-graphic">Graphic</li>
+							<li data-filter=".filter-ssm">SSM</li>
+							<li data-filter=".filter-ssm">UX/ui</li>
+						</ul>
 					</div>
 				</div>
 				<div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
-					<div class="col-lg-4 col-md-6 portfolio-item filter-app">
+					<div class="col-lg-4 col-md-6 portfolio-item filter-web">
 						<div class="portfolio-wrap">
-							<img src="images\idealtop.png" class="img-fluid" alt="Site Thumbnail"
-								style="height: 211px;">
+							<img src="images/vercel.jpg" class="img-fluid" alt="Site Thumbnail" style="height: 211px;">
 							<div class="portfolio-hover">
-								<h5>Site Name</h5>
-								<a id="project-link" href="https://www.pakebs.com/" target="_blank"
-									rel="noopener noreferrer">Visit Site</a>
+								<h5>Circularcouture</h5>
+								<a id="project-link" href="https://circularcoutoure.vercel.app/" target="_blank"
+									rel="noopener noreferrer"><i id="link-li" class="fa-solid fa-link"></i></a>
 							</div>
 						</div>
 					</div>
 					<div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
-						<div class="col-lg-4 col-md-6 portfolio-item filter-web">
+						<div class="col-lg-4 col-md-6 portfolio-item filter-webf">
 							<div class="portfolio-wrap">
-								<img src="images\gym.png" class="img-fluid" alt="Site Thumbnail" style="height: 211px;">
+								<img src="images/mixbeauty.jpg" class="img-fluid" alt="Site Thumbnail"
+									style="height: 211px;">
 								<div class="portfolio-hover">
-									<h5>Site Name</h5>
-									<a id="project-link" href="https://www.pakebs.com/" target="_blank"
-										rel="noopener noreferrer">Visit Site</a>
+									<h5>MIXST</h5>
+									<a id="project-link" href="https://mixstbeauty.com/" target="_blank"
+										rel="noopener noreferrer"><i id="link-li" class="fa-solid fa-link"></i></a>
 								</div>
 							</div>
 						</div>
 						<div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
-							<div class="col-lg-4 col-md-6 portfolio-item filter-web">
+							<div class="col-lg-4 col-md-6 portfolio-item filter-shopify">
 								<div class="portfolio-wrap">
-									<img src="images/discover.png" class="img-fluid" alt="Site Thumbnail"
+									<img src="images/youngevity.jpg" class="img-fluid" alt="Site Thumbnail"
 										style="height: 211px;">
 									<div class="portfolio-hover">
-										<h5>Site Name</h5>
-										<a id="project-link" href="https://www.pakebs.com/" target="_blank"
-											rel="noopener noreferrer">Visit Site</a>
+										<h5>youngevity</h5>
+										<a id="project-link" href="https://young90store.com/" target="_blank"
+											rel="noopener noreferrer"><i id="link-li" class="fa-solid fa-link"></i></a>
 									</div>
 								</div>
 							</div>
-							<!-- Add more portfolio items here -->
+							<div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
+								<div class="col-lg-4 col-md-3 portfolio-item filter-shopify">
+									<div class="portfolio-wrap">
+										<img src="images/katies.jpg" class="img-fluid" alt="Site Thumbnail"
+											style="height: 211px;">
+										<div class="portfolio-hover">
+											<h5>Katies</h5>
+											<a id="project-link" href="https://mixstbeauty.com/" target="_blank"
+												rel="noopener noreferrer"><i id="link-li" class="fa-solid fa-link"></i></a>
+										</div>
+									</div>
+								</div>
+								<div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
+									<div class="col-lg-4 col-md-6 portfolio-item filter-wordpress">
+										<div class="portfolio-wrap">
+											<img src="images/itefaq.jpg" class="img-fluid" alt="Site Thumbnail"
+												style="height: 211px;">
+											<div class="portfolio-hover">
+												<h5>Itefaq Group</h5>
+												<a id="project-link" href="https://www.ittefaqgroup.pk/" target="_blank"
+													rel="noopener noreferrer"><i id="link-li"
+														class="fa-solid fa-link"></i></a>
+											</div>
+										</div>
+									</div>
+									<div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
+										<div class="col-lg-4 col-md-6 portfolio-item filter-wordpress">
+											<div class="portfolio-wrap">
+												<img src="images/GTFS.png" class="img-fluid" alt="Site Thumbnail"
+													style="height: 211px;">
+												<div class="portfolio-hover">
+													<h5>GTFS</h5>
+													<a id="project-link" href="https://gtfs-web.vercel.app/" target="_blank"
+														rel="noopener noreferrer"><i id="link-li"
+															class="fa-solid fa-link"></i></a>
+												</div>
+											</div>
+										</div>
+										<div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
+											<div class="col-lg-4 col-md-6 portfolio-item filter-shopify">
+												<div class="portfolio-wrap">
+													<img src="images/Fitted Fresh Shopify.png" class="img-fluid"
+														alt="Site Thumbnail" style="height: 211px;">
+													<div class="portfolio-hover">
+														<h5>Fitted Fresh</h5>
+														<a id="project-link" href="https://fittedfresh.com/" target="_blank"
+															rel="noopener noreferrer"><i id="link-li"
+																class="fa-solid fa-link"></i></a>
+													</div>
+												</div>
+											</div>
+											<div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
+												<div class="col-lg-4 col-md-6 portfolio-item filter-web">
+													<div class="portfolio-wrap">
+														<img src="images/pakebs.png" class="img-fluid" alt="Site Thumbnail"
+															style="height: 211px;">
+														<div class="portfolio-hover">
+															<h5>Pak EBS</h5>
+															<a id="project-link" href="https://www.pakebs.com/"
+																target="_blank" rel="noopener noreferrer"><i id="link-li"
+																	class="fa-solid fa-link"></i></a>
+														</div>
+													</div>
+												</div>
+												<!-- Add more portfolio items here -->
+											</div>
+										</div>
+										<!-- footer section -->
+										<script src="assets/js/project.js">
+	
+										</script>
+									</div>
+								</div>
+							</div>
 						</div>
 					</div>
-					<!-- footer section -->
-
-
-					<script src="assets/js/project.js">
-
-					</script>
-	</section>
+				</div>
+		</section>
 	<!-- End Portfolio Section -->
 
 	<!-- end project section -->
