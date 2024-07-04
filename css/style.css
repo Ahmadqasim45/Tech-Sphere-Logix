@@ -5074,7 +5074,9 @@ textarea.form-control {
   margin: 5px;
     
   }
-  
+  .navbar{
+    padding: 5px 10px;
+  }
 }
 @media screen  and (min-width:576px) and (max-width:776px){
   #tsl-logo{
@@ -5100,15 +5102,16 @@ textarea.form-control {
   margin-top: 20px;
 }
 #btn-bar{
-  margin-right: 20px;
+  /* margin-right: 20px; */
   text-align: center;
-  width: 30px;
+  width: 40px;
   background-color: white;
 }
 #icon-nav{
   font-size: 25px;
   color: black;
   position: relative;
+  right: 5px;
 }
 #link-li{
   font-size: 30px;
