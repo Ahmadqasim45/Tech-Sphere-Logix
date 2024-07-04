@@ -4959,19 +4959,35 @@ textarea.form-control {
     cursor: pointer;
     margin: 0 15px;
     padding: 8px 15px;
-    background: #e9ecef;
+    border-bottom:4px solid #e9ecef;
+    border-width: 10%;
     color: #555;
-    border-radius: 4px;
+    border-radius: 2px;
     transition:  0.3s, color 0.3s;
-    width: 100px;
+    font-weight: 800;
+    /* width: 100px; */
     text-align: center;
+    position: relative;
 }
+
+/* #portfolio-filters li::after{
+  content: "";
+  width: 10%;
+  height: 4px;
+  background: #0056b3;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin-top: 5px;
+  transition: all .5s ease-in;
+  opacity: 0;
+} */
+
 
 #portfolio-filters .filter-active {
-    background: #007bff;
-    color: #fff;
+  border-color: #0056b3;
+    color: black;
 }
-
 /* Portfolio Items */
 .portfolio-item {
     position: relative;
@@ -5063,7 +5079,7 @@ textarea.form-control {
   text-decoration: none;
   font-size: medium;
   background-color: transparent;
-  border: 1px solid white;
+  /* border: 1px solid white; */
   padding: 8px;
   font-weight: 600;
   margin-top: 20px;
@@ -5078,4 +5094,7 @@ textarea.form-control {
   font-size: 25px;
   color: white;
   position: relative;
+}
+#link-li{
+  font-size: 30px;
 }
