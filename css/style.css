@@ -2475,7 +2475,7 @@ h5,
     }
 
     
-
+   
     }
 
 
@@ -2490,11 +2490,14 @@ h5,
     position: relative;
   }
   .mb-4{
-    margin-left: 65px;
+    margin-left: 0px;
   }
  
     .nav-link{
       margin-left: 10px;
+    }
+    .icon-video{
+      display: none !important;
     }
 }
 @media screen and (min-width:576px) and (max-width:1100px) {
@@ -2769,8 +2772,9 @@ h5,
 
 @media (max-width: 767.98px) {
   .slider-text h1 {
-    font-size: 30px;
+    font-size: 30px !important;
   }
+
 }
 
 .slider-text p {
@@ -5074,7 +5078,9 @@ textarea.form-control {
   margin: 5px;
     
   }
-  
+  .navbar{
+    padding: 5px 10px;
+  }
 }
 @media screen  and (min-width:576px) and (max-width:776px){
   #tsl-logo{
@@ -5083,7 +5089,8 @@ textarea.form-control {
     position: relative;
     top: 0;
   }
-  
+
+
 }
 
 .team-des{
@@ -5100,16 +5107,18 @@ textarea.form-control {
   margin-top: 20px;
 }
 #btn-bar{
-  margin-right: 20px;
+  /* margin-right: 20px; */
   text-align: center;
-  width: 30px;
+  width: 40px;
   background-color: white;
 }
 #icon-nav{
   font-size: 25px;
   color: black;
   position: relative;
+  right: 5px;
 }
 #link-li{
   font-size: 30px;
 }
+
