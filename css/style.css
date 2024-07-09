@@ -2740,7 +2740,7 @@ h5,
 }
 
 .hero-wrap.hero-wrap-2 .slider-text {
-  height: 600px;
+  height: 500px;
 }
 
 .slider-text {
@@ -3516,6 +3516,7 @@ textarea.form-control {
 .ftco-animate {
   opacity: 0;
   visibility: hidden;
+
 }
 
 .bg-darken {
