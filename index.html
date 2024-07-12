@@ -71,18 +71,18 @@
 
 <div class="container-fluid" id="hero-container">
 	<div   class="row d-flex align-items-center justify-content-center">
-		<div style="margin-top: 100px;" class="col-md-5 ftco-animate d-flex align-items-center justify-content-center">
+		<div style="margin-top: 100px;"  class="col-md-5  ftco-animate d-flex align-items-center justify-content-center">
 			<div class="text w-100">
-				<span class="subheading">Welcome to Tech Sphere Logix </h2></span>
-				<h1 style="font-weight: bold;margin-top:40px;">A leading IT Services Provider Firm dedicated to Crafting Solutions.</h1>
-				<p class="mb-4">We empower businesses with cutting-edge technology, exceptional design, and innovative thinking to reach new heights.</p>
+				<span class="subheading" data-aos="fade-up">Welcome to Tech Sphere Logix </h2></span>
+				<h1 style="font-weight: bold;margin-top:40px;" data-aos="fade-up">A leading IT Services Provider Firm dedicated to Crafting Solutions.</h1>
+				<p class="mb-4" data-aos="fade-up">We empower businesses with cutting-edge technology, exceptional design, and innovative thinking to reach new heights.</p>
 				<!-- <p><a href="#" class="btn btn-primary">Learn More</a>  -->
 					<a href="#"
-						class="btn btn-white">View Portfolio</a></p>
+						class="btn btn-white" data-aos="fade-up">View Portfolio</a></p>
 			</div>
 			 <!-- 2nd section heading -->
 		</div>
-		<div class="col-md-5">
+		<div class="col-md-5" data-aos="fade-left">
 			<!-- from -->
 			<div class="form-container-custom">
 				<h1 class="form-heading-custom">CONNECT <span class="form-heading-span-custom">WITH US</span></h1>
@@ -582,16 +582,19 @@
 			<div class="row" data-aos="fade-up">
 				<div class="col-lg-12 d-flex justify-content-center">
 					<ul id="portfolio-filters" class="d-flex flex-wrap list-unstyled justify-content-center">
-						<li data-filter="*" class="filter-active">All</li>
-						<li data-filter=".filter-app">App</li>
-						<li data-filter=".filter-web">Web</li>
-						<!-- <li data-filter=".filter-blog">Blog Sites</li> -->
-						<li data-filter=".filter-wordpress">Wordpress</li>
-						<li data-filter=".filter-shopify">Shopify</li>
-						<li data-filter=".filter-webf">Web Flow</li>
-						<li data-filter=".filter-graphic">Graphic</li>
-						<li data-filter=".filter-ssm">SSM</li>
-						<li data-filter=".filter-ssm">UX/ui</li>
+						<li data-filter="*" class="filter-active"><i class="fa-solid fa-bars-progress"></i>All</li>
+						<li data-filter=".filter-app"><i class="fa-brands fa-app-store-ios"></i>App</li>
+						<li data-filter=".filter-web" class="filter_web_res"><i class="fa-solid fa-globe"></i>Web</li>
+						<li data-filter=".filter-wordpress"><i class="fa-brands fa-wordpress"></i>Wordpress</li>
+						<li data-filter=".filter-shopify"><i class="fa-brands fa-shopify"></i>Shopify</li>
+						<li data-filter=".filter-webf"><i class="fa-brands fa-webflow"></i>Web Flow</li>
+					</ul>
+				</div>
+				<div class="col-lg-12 d-flex justify-content-center">
+					<ul id="portfolio-filters" class="d-flex flex-wrap list-unstyled justify-content-center">
+						<li data-filter=".filter-graphic"><i class="fa-solid fa-palette"></i>Graphic</li>
+						<li data-filter=".filter-ssm"><i class="fa-solid fa-chart-simple"></i>Marketing</li>
+						<li data-filter=".filter-ssm"><i class="fa-brands fa-figma"></i>UX/ui</li>
 					</ul>
 				</div>
 			</div>
@@ -1112,6 +1115,7 @@
 	<script src="js/google-map.js"></script>
 	<script src="js/main.js"></script>
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+	<script src="js/scrollanimation.js"></script>
 </body>
 
 </html>

@@ -4984,36 +4984,27 @@ textarea.form-control {
 
 #portfolio-filters li {
     cursor: pointer;
-    margin: 0 15px;
-    padding: 8px 15px;
-    border-bottom:4px solid #e9ecef;
-    border-width: 10%;
-    color: #555;
-    border-radius: 2px;
+    margin: 0 5px;
+    padding: 8px 10px;
+    border-left:6px solid #e9ecef;
+    background: #09171c;
+    color: white;
+    font-weight: 600;
     transition:  0.3s, color 0.3s;
-    font-weight: 800;
-    /* width: 100px; */
-    text-align: center;
+    /* text-align: center; */
     position: relative;
+    font-size: 15px;
+    width: 130px;
+    border-radius: 5px;
+
+    i{
+      margin-right: 10px;
+    }
 }
 
-/* #portfolio-filters li::after{
-  content: "";
-  width: 10%;
-  height: 4px;
-  background: #0056b3;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  margin-top: 5px;
-  transition: all .5s ease-in;
-  opacity: 0;
-} */
-
-
 #portfolio-filters .filter-active {
-  border-color: #0056b3;
-    color: black;
+  border-color: #00a1a4;
+    color: white;
 }
 /* Portfolio Items */
 .portfolio-item {
@@ -5073,6 +5064,7 @@ textarea.form-control {
 @media (max-width: 768px) {
     #portfolio-filters {
         justify-content: center;
+        margin-bottom: 0px;
     }
 
     #portfolio-filters li {
@@ -5089,6 +5081,12 @@ textarea.form-control {
   .navbar{
     padding: 5px 10px;
   }
+  #portfolio-filters li {
+    width: auto;
+}
+#portfolio-filters .filter_web_res{
+  order: 2;
+}
 }
 @media screen  and (min-width:576px) and (max-width:776px){
   #tsl-logo{
