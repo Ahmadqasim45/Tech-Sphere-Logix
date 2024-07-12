@@ -5113,16 +5113,12 @@ textarea.form-control {
   margin-top: 20px;
 }
 #btn-bar{
-  /* margin-right: 20px; */
-  text-align: center;
-  width: 40px;
-  background-color: white;
+  margin-right: 15px;
 }
 #icon-nav{
+  color: white;
   font-size: 25px;
-  color: black;
-  position: relative;
-  right: 5px;
+  margin-right: 10px;
 }
 #link-li{
   font-size: 30px;
