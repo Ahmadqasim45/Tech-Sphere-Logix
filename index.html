@@ -56,58 +56,67 @@
 
 	<div id="particles-js"></div>
 	<div class="count-particles">
+	
 		<span class="js-count-particles">--</span> particles
+		
+	  </div></div>
+
+	  <div class="container">
+		<div class="row">
+			<div class="col-md-6"></div>
+		</div>
 	  </div>
 
-	<section class="hero-wrap">
-		<div class="home-slider owl-carousel js-fullheight">
-			<div class="slider-item js-fullheight" style="background-image:url(images/bg_1.jpg);height:600px;">
-				<div class="overlay"></div>
-				<div class="container">
-					<div class="row d-flex no-gutters slider-text js-fullheight align-items-center align-items-stretch">
-						<div class="col-md-6 d-flex align-items-center justify-content-center">
-							<a href="https://vimeo.com/45830194"
-								class="icon-video popup-vimeo d-flex align-items-center justify-content-center mb-4">
-								<span class="fa fa-play"></span>
-							</a>
-						</div>
-						<div class="col-md-6 ftco-animate d-flex align-items-center">
-							<div class="text w-100">
-								<span class="subheading">Welcome to Tech Sphere Logix </h2></span>
-								<h1>A leading IT Services Provider Firm dedicated to Crafting Solutions.</h1>
-								<p class="mb-4">We empower businesses with cutting-edge technology, exceptional design, and innovative thinking to reach new heights.</p>
-								<p><a href="#" class="btn btn-primary">Learn More</a> <a href="#"
-										class="btn btn-white">View Portfolio</a></p>
-							</div>
-						</div>
-					</div>
-				</div>
+<!-- hero section -->
+
+<div class="container-fluid" id="hero-container">
+	<div   class="row d-flex align-items-center justify-content-center">
+		<div style="margin-top: 100px;" class="col-md-5 ftco-animate d-flex align-items-center justify-content-center">
+			<div class="text w-100">
+				<span class="subheading">Welcome to Tech Sphere Logix </h2></span>
+				<h1 style="font-weight: bold;margin-top:40px;">A leading IT Services Provider Firm dedicated to Crafting Solutions.</h1>
+				<p class="mb-4">We empower businesses with cutting-edge technology, exceptional design, and innovative thinking to reach new heights.</p>
+				<!-- <p><a href="#" class="btn btn-primary">Learn More</a>  -->
+					<a href="#"
+						class="btn btn-white">View Portfolio</a></p>
 			</div>
-			<div class="slider-item js-fullheight" style="background-image:url(images/bg_2.jpg);">
-				<div class="overlay"></div>
-				<div class="container">
-					<div class="row d-flex no-gutters slider-text js-fullheight align-items-center align-items-stretch">
-						<div class="col-md-6 d-flex align-items-center justify-content-center">
-							<a href="https://vimeo.com/45830194"
-								class="icon-video popup-vimeo d-flex align-items-center justify-content-center mb-4">
-								<span class="fa fa-play"></span>
-							</a>
-						</div>
-						<div class="col-md-6 ftco-animate d-flex align-items-center">
-							<div class="text w-100 mb-5">
-								<span class="subheading">Creative Portfolio</h2></span>
-								<h1>We Provide Effective for Business Solutions</h1>
-								<p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia
-									and Consonantia, there live the blind texts.</p>
-								<p><a href="#" class="btn btn-primary">Learn More</a> <a href="#"
-										class="btn btn-white">View Portfolio</a></p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
+			 <!-- 2nd section heading -->
 		</div>
-	</section>
+		<div class="col-md-5">
+			<!-- from -->
+			<div class="form-container-custom">
+				<h1 class="form-heading-custom">CONNECT <span class="form-heading-span-custom">WITH US</span></h1>
+				<p class="form-description-custom">Get a Free Quote Now!</p>
+				<!-- <?php session_start(); ?>
+				<?php if(isset($_SESSION['message'])): ?>
+					<p class="message-custom"><?php echo $_SESSION['message']; ?></p>
+					<?php unset($_SESSION['message']); ?> Clear session message after displaying -->
+				 <!-- <?php endif; ?> --> 
+				<form class="contact-form-custom" action="form_handler.php" method="post">
+					<input type="text" name="name" class="form-input-custom" placeholder="Enter Your Name" required>
+					<input type="email" name="email" class="form-input-custom" placeholder="Enter Your Email" required>
+					<input type="text" name="phone" class="form-input-custom" placeholder="Enter Phone Number" required>
+					<input type="text" name="city" class="form-input-custom" placeholder="City" required>
+					<input type="text" name="business" class="form-input-custom" placeholder="Enter Your Business Name" required>
+					<select name="interest" class="form-select-custom" required>
+						<option value="">I'm interested in?</option>
+						<option value="web development">Web Development</option>
+						<option value="app development">App Development</option>
+						<option value="ui ux design">UI/UX Design</option>
+						<option value="ecommerce">E-commerce</option>
+						<!-- <option value="seo">SEO Services</option> -->
+					</select>
+					<button type="submit" class="form-button-custom">SUBMIT</button>
+				</form>
+			</div>
+			
+			 <!-- end form -->
+
+		</div>
+	</div>
+</div>
+ <!-- end hero section -->
+
 	<section class="ftco-section ftco-services ftco-no-pt bg-light">
 		<div class="container container-2">
 			<div class="row">

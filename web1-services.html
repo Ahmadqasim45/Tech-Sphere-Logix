@@ -61,7 +61,7 @@
 		</div>
 	</nav>
 
-	<section class="hero-wrap hero-wrap-2" style="background-image: url('images/hero-web.jpg');height:500px;">
+	<section class="hero-wrap hero-wrap-2" style="background-image: url('images/hero-web.jpg');height:500px;background-position:center">
 		<div class="overlay"></div>
 		<div class="container">
 			<div class="row no-gutters slider-text align-items-end justify-content-center">
@@ -209,151 +209,40 @@
 						
 					
 					  <!-- end services -->
-			<!-- Comment form section -->
-<section id="comment-form">
-	<div class="container">
-		<div class="comment-form-wrap pt-5">
-			<h3 class="mb-5" style="font-size: 28px; font-weight: bold;">Leave a comment</h3>
-			<form action="#" class="p-5 comment-form">
-				<div class="row">
-					<div class="col-md-6">
-						<div class="form-group">
-							<label for="name">Name *</label>
-							<input type="text" class="form-control" id="name">
-						</div>
-					</div>
-					<div class="col-md-6">
-						<div class="form-group">
-							<label for="email">Email *</label>
-							<input type="email" class="form-control" id="email">
-						</div>
-					</div>
-					<div class="col-md-12">
-						<div class="form-group">
-							<label for="website">Website</label>
-							<input type="url" class="form-control" id="website">
-						</div>
-					</div>
-					<div class="col-md-12">
-						<div class="form-group">
-							<label for="message">Message</label>
-							<textarea name="" id="message" cols="30" rows="10" class="form-control"></textarea>
-						</div>
-					</div>
-					<div class="col-md-12">
-						<div class="form-group">
-							<input name="submit" type="submit" value="Post Comment" class="btn py-3 px-4 btn-primary">
-						</div>
+		<!-- form section -->
+		 <div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="form-container-custom">
+						<h1 class="form-heading-custom">CONNECT <span class="form-heading-span-custom">WITH US</span></h1>
+						<p class="form-description-custom">Get a Free Quote Now!</p>
+						<!-- <?php session_start(); ?>
+						<?php if(isset($_SESSION['message'])): ?>
+							<p class="message-custom"><?php echo $_SESSION['message']; ?></p>
+							<?php unset($_SESSION['message']); ?> Clear session message after displaying -->
+						 <!-- <?php endif; ?> --> 
+						<form class="contact-form-custom" action="form_handler.php" method="post">
+							<input type="text" name="name" class="form-input-custom" placeholder="Enter Your Name" required>
+							<input type="email" name="email" class="form-input-custom" placeholder="Enter Your Email" required>
+							<input type="text" name="phone" class="form-input-custom" placeholder="Enter Phone Number" required>
+							<input type="text" name="city" class="form-input-custom" placeholder="City" required>
+							<input type="text" name="business" class="form-input-custom" placeholder="Enter Your Business Name" required>
+							<select name="interest" class="form-select-custom" required>
+								<option value="">I'm interested in?</option>
+								<option value="web development">Web Development</option>
+								<option value="app development">App Development</option>
+								<option value="ui ux design">UI/UX Design</option>
+								<option value="ecommerce">E-commerce</option>
+								<option value="seo">SEO Services</option>
+							</select>
+							<button type="submit" class="form-button-custom">SUBMIT</button>
+						</form>
 					</div>
 				</div>
-			</form>
-		</div>
+			</div>
+		 </div>
+		 <!-- end form section -->
 
-		<div class="pt-5 mt-5">
-			<h3 class="mb-5" style="font-size: 28px; font-weight: bold;">6 Comments</h3>
-			<ul class="comment-list">
-				<li class="comment">
-					<div class="vcard bio">
-						<img src="images/person_1.jpg" alt="Image placeholder">
-					</div>
-					<div class="comment-body">
-						<h3>John Doe</h3>
-						<div class="meta">September 24, 2020 at 1:00pm</div>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur quidem laborum
-							necessitatibus, ipsam impedit vitae autem, eum officia, fugiat saepe enim
-							sapiente iste iure! Quam voluptas earum impedit necessitatibus, nihil?</p>
-						<p><a href="#" class="reply">Reply</a></p>
-					</div>
-				</li>
-				<li class="comment">
-					<div class="vcard bio">
-						<img src="images/person_1.jpg" alt="Image placeholder">
-					</div>
-					<div class="comment-body">
-						<h3>John Doe</h3>
-						<div class="meta">September 24, 2020 at 1:00pm</div>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur quidem laborum
-							necessitatibus, ipsam impedit vitae autem, eum officia, fugiat saepe enim
-							sapiente iste iure! Quam voluptas earum impedit necessitatibus, nihil?</p>
-						<p><a href="#" class="reply">Reply</a></p>
-					</div>
-					<ul class="children">
-						<li class="comment">
-							<div class="vcard bio">
-								<img src="images/person_1.jpg" alt="Image placeholder">
-							</div>
-							<div class="comment-body">
-								<h3>John Doe</h3>
-								<div class="meta">September 24, 2020 at 1:00pm</div>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur quidem
-									laborum necessitatibus, ipsam impedit vitae autem, eum officia, fugiat
-									saepe enim sapiente iste iure! Quam voluptas earum impedit
-									necessitatibus, nihil?</p>
-								<p><a href="#" class="reply">Reply</a></p>
-							</div>
-							<ul class="children">
-								<li class="comment">
-									<div class="vcard bio">
-										<img src="images/person_1.jpg" alt="Image placeholder">
-									</div>
-									<div class="comment-body">
-										<h3>John Doe</h3>
-										<div class="meta">September 24, 2020 at 1:00pm</div>
-										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-											Pariatur quidem laborum necessitatibus, ipsam impedit vitae
-											autem, eum officia, fugiat saepe enim sapiente iste iure! Quam
-											voluptas earum impedit necessitatibus, nihil?</p>
-										<p><a href="#" class="reply">Reply</a></p>
-									</div>
-								</li>
-							</ul>
-						</li>
-					</ul>
-				</li>
-				<li class="comment">
-					<div class="vcard bio">
-						<img src="images/person_1.jpg" alt="Image placeholder">
-					</div>
-					<div class="comment-body">
-						<h3>John Doe</h3>
-						<div class="meta">September 24, 2020 at 1:00pm</div>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur quidem laborum
-							necessitatibus, ipsam impedit vitae autem, eum officia, fugiat saepe enim
-							sapiente iste iure! Quam voluptas earum impedit necessitatibus, nihil?</p>
-						<p><a href="#" class="reply">Reply</a></p>
-					</div>
-				</li>
-			</ul>
-		</div>
-	</div>
-</section>
-<!-- end comment form section -->
-
-					 <!-- subscribe section -->
-					 <section class="ftco-intro ftco-section">
-						<div class="container">
-							<div class="row justify-content-center">
-								<div class="col-md-12 text-center">
-									<div class="img" style="background-image: url(images/bg_4.jpg);">
-										<div class="overlay"></div>
-										<h2>Subscribe to our Newsletter</h2>
-										<p>A small river named Duden flows by their place</p>
-										<div class="row justify-content-center">
-											<div class="col-md-6">
-												<form action="#" class="subscribe-form">
-													<div class="form-group d-flex">
-														<input type="text" class="form-control" placeholder="Enter email address">
-														<input type="submit" value="Subscribe" class="submit px-3">
-													</div>
-												</form>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</section>
-					  <!-- end subscription -->
 					
 					
 			
