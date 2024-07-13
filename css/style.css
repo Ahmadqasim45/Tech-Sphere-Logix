@@ -5406,3 +5406,12 @@ canvas {
   }
   
 }
+
+@media screen and (max-width:900px)and (min-width:577px) {
+  #particles-other-pages{
+    /* position: absolute; */
+    top:40%;
+    left:5%;
+  }
+  
+}
