@@ -42,38 +42,61 @@
 		<div class="container">
 			<a class="navbar-brand" href="index.html"><img id="tsl-logo" class="img-fluid" src="images/short2.png"
 					alt=""></a>
-			<button style="box-shadow: none;" id="btn-bar" class="navbar-toggler" type="button" data-toggle="collapse"
-				data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-				<i id="icon-nav" class="fa-solid fa-bars"></i>
+			<button style="box-shadow: none;" id="btn-bar" class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo">
+				<i id="icon-nav" class="fa-solid fa-bars-staggered"></i>
 			</button>
-			<div class="collapse navbar-collapse" id="ftco-nav">
+			<div class="offcanvas offcanvas-end d-inline d-md-none bg-dark text-light" id="demo">
+				<button type="button" class="btn-close btn-light" data-bs-dismiss="offcanvas"></button>
+				<div class="navbar-collapse">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item active"><a href="index.html" class="nav-link"><i class="fa-solid fa-house me-2"></i>Home</a></li>
+						<li class="nav-item"><a href="about.html" class="nav-link"><i class="fa-solid fa-circle-info me-2"></i>About</a></li>
+						<li class="nav-item"><a href="services.html" class="nav-link"><i class="fa-solid fa-gears me-2"></i>Services</a></li>
+						<li class="nav-item"><a href="projects.html" class="nav-link"><i class="fa-solid fa-hand-holding-hand me-2"></i>Our Projects</a></li>
+						<li class="nav-item"><a href="portfolio.html" class="nav-link"><i class="fa-solid fa-briefcase me-2"></i>Portfolio</a></li>
+	
+						<li class="nav-item"><a href="contact.html" class="nav-link"><i class="fa-solid fa-address-book me-2"></i>Contact</a></li>
+	
+					</ul>
+				</div>
+				
+			  </div>
+			<div class="collapse navbar-collapse d-none d-md-inline " id="ftco-nav">
 				<ul class="navbar-nav ml-auto">
-					<li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
-					<li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
-					<li class="nav-item"><a href="services.html" class="nav-link">Services</a></li>
-					<li class="nav-item"><a href="projects.html" class="nav-link">Our Projects</a></li>
-					<li class="nav-item"><a href="portfolio.html" class="nav-link">Portfolio</a></li>
-					
-					<li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+					<li class="nav-item active"><a href="index.html" class="nav-link"><i class="fa-solid fa-house me-2"></i>Home</a></li>
+					<li class="nav-item"><a href="about.html" class="nav-link"><i class="fa-solid fa-circle-info me-2"></i>About</a></li>
+					<li class="nav-item"><a href="services.html" class="nav-link"><i class="fa-solid fa-gears me-2"></i>Services</a></li>
+					<li class="nav-item"><a href="projects.html" class="nav-link"><i class="fa-solid fa-hand-holding-hand me-2"></i>Our Projects</a></li>
+					<li class="nav-item"><a href="portfolio.html" class="nav-link"><i class="fa-solid fa-briefcase me-2"></i>Portfolio</a></li>
+
+					<li class="nav-item"><a href="contact.html" class="nav-link"><i class="fa-solid fa-address-book me-2"></i>Contact</a></li>
 
 				</ul>
 			</div>
 		</div>
 	</nav>
-
-	<section class="hero-wrap hero-wrap-2" style="background-image: url('images/graphic-hero.jpg');height:500px;">
-		<div class="overlay"></div>
-		<div class="container">
-			<div class="row no-gutters slider-text align-items-end justify-content-center">
-				<div class="col-md-10 ftco-animate pb-5">
-					<p class="breadcrumbs"><span class="mr-2"><a href="index-3.html">Home <i
+			<div id="particles-js" style="background-image:linear-gradient(150deg, #09161c 50%, #09161c 50%);height:550px;">
+			
+					<!-- <div class="overlay"></div> -->
+					<div class="container" id="particles-other-pages">
+						<div class="row no-gutters slider-text align-items-end">
+							<div class="col-md-9 ftco-animate pb-5">
+								<p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home <i
 									class="fa fa-chevron-right"></i></a></span> <span class="mr-2"><a
-								href="index-3.html">Services <i class="fa fa-chevron-right"></i></a></span> <span>Graphics <i class="fa fa-chevron-right"></i></span></p>
+								href="services.html">Services <i class="fa fa-chevron-right"></i></a></span> <span>Graphics <i class="fa fa-chevron-right"></i></span></p>
 					<h1 class="mb-0 bread">Graphics Services</h1>
-				</div>
+							</div>
+						</div>
+					</div>
+			
+
+
+		
 			</div>
-		</div>
-	</section>
+			
+			
+
+	<!-- particles section -->
 	
 					
 					
@@ -308,6 +331,9 @@
 				stroke="#F96D00" />
 				
 		</svg></div>
+
+		<script src="js/particles.js"></script>
+		<script src="js/app.js"></script>
 	<script src="js/jquery.min.js"></script>
 	<script src="js/jquery-migrate-3.0.1.min.js"></script>
 	<script src="js/popper.min.js"></script>
