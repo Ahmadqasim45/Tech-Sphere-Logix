@@ -14,6 +14,7 @@
   --gray: #6c757d;
   --gray-dark: #343a40;
   --primary: #1c8fb9;
+  --bg-darkBlue: #09171c;
   --secondary: #6c757d;
   --success: #28a745;
   --info: #17a2b8;
@@ -2463,11 +2464,14 @@ h5,
 
 @media (max-width: 991.98px) {
   .ftco-navbar-light {
-    background: #000000 !important;
+    background: var(--bg-darkBlue) !important;
     position: relative;
     top: 0;
     padding-top: 0;
     padding-bottom: 0;
+  }
+  .offcanvas{
+    background-color: var(--bg-darkBlue) !important;
   }
 }
 @media screen and (min-width:576px) and (max-width:1282px) {
@@ -2570,10 +2574,33 @@ h5,
   height: 5px;
   background: white;
   position: absolute;
-  bottom: 15px;
+  bottom: 10px;
   border-radius: 4px;
   transform: scale(0);
   transition: all .3s ease-in-out;
+}
+#particles-js{
+  height: 500px;
+  background-image: linear-gradient(3.141592653589793rad, hsla(0,0%,0%,1) 0%,rgb(1, 50, 64) 110%) !important;
+}
+@media (max-width: 550px){
+  .ftco-navbar-light .navbar-nav>.nav-item>.nav-link::before{
+    content: none;
+  }
+  .navbar-collapse{
+    margin-top: 2rem;
+    padding: 2rem;
+    
+  }
+  .btn-close{ 
+    float: right;
+    margin: 10px;
+    background-color: white;
+    padding: 5px;
+  }
+  #particles-js{
+    height: 350px !important;
+  }
 }
 .ftco-navbar-light .navbar-nav>.nav-item>.nav-link:hover,
 .ftco-navbar-light .navbar-nav>.nav-item>.nav-link:focus {
@@ -3531,7 +3558,7 @@ textarea.form-control {
 
 .bg-darken {
   /* background: #141b25 !important; */
-  background:linear-gradient(120deg, #09161c 50%, #01141de3) ;
+  background:linear-gradient(9.141592653589793rad, hsla(0,0%,0%,1) 0%,rgb(1, 50, 64) 110%) !important;
 
 }
 
@@ -3657,7 +3684,7 @@ textarea.form-control {
 }
 
 .staff .img-wrap {
-  height: 250px;
+  /* height: 250px; */
 }
 
 .staff .img {
@@ -3688,8 +3715,9 @@ textarea.form-control {
 }
 
 .staff .text h3 {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 700;
+  letter-spacing: 1.3px;
   margin-bottom: 0;
   -moz-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
@@ -3701,13 +3729,14 @@ textarea.form-control {
 }
 
 .staff .text .position {
-  color: var(--primary);
+  /* color: var(--primary); */
   display: block;
   font-weight: 500;
   display: inline-block;
   margin-bottom: 20px;
-  font-size: 13px;
+  font-size: 16px;
   text-transform: uppercase;
+  font-family: var(--font-family-monospace);
   letter-spacing: 2px;
 }
 
@@ -3753,9 +3782,12 @@ textarea.form-control {
 
 .staff:hover .text h3,
 .staff:focus .text h3 {
-  color: #000000;
+  color: #000000 !important;
 }
-
+.staff:focus .text .position,
+.staff:hover .text .position{
+  color: black !important;
+}
 .staff:hover .ftco-social li a,
 .staff:focus .ftco-social li a {
   background: var(--primary);
@@ -3927,7 +3959,9 @@ textarea.form-control {
   background: #09171c;
   color: rgba(255, 255, 255, 0.9);
 }
-
+.ftco-footer a{
+  text-decoration: none;
+}
 .ftco-footer .logo a {
   position: relative;
 }
@@ -5380,4 +5414,120 @@ textarea.form-control {
       left: 0;
       width: 100%;
       height: 100%;
+}
+
+/* vision_main */
+.vision_main .card-custom {
+  border-radius: 15px !important;
+  border: none !important;
+  padding: 20px;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  transition: all .2s ease-in;
+}
+.vision_main .card-custom:hover{
+  transform: translateY(-20px);
+}
+.vision_main .card-blue {
+  background: linear-gradient(to right, var(--bg-darkBlue), #003647);
+}
+
+.vision_main .card-teal {
+  background: linear-gradient(to right, #00a1a4, var(--primary));
+}
+
+.vision_main .card-icon {
+  position: absolute;
+  top: 20px;
+  left: 33px;
+}
+
+.vision_main .card-icon img {
+  width: 50px;
+  height: auto;
+}
+
+.vision_main .card-title {
+  margin-top: 50px;
+  font-size: 1.5rem;
+}
+
+.vision_main .btn-link {
+  font-size: 1rem;
+}
+
+
+/* multi_image_slider */
+.multi_image_slider .card-custom {
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  height: 100%;
+  transition: transform 0.5s ease-in-out;
+
+}
+.multi_image_slider .carousel-item{
+  transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+}
+.multi_image_slider .card-type {
+  font-size: 0.8rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.multi_image_slider .card-title {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.multi_image_slider .btn-link {
+  font-size: 1rem;
+  color: #00FFDD;
+  text-decoration: none;
+}
+
+.multi_image_slider .btn-link:hover {
+  color: #00FFDD;
+  text-decoration: underline;
+}
+
+.multi_image_slider .carousel-controls {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.multi_image_slider .carousel-control-prev,
+.multi_image_slider .carousel-control-next {
+  /* background-color: #fff; */
+  border: none;
+  color: #000;
+  bottom: 10px !important;
+  font-size: 1.5rem;
+  top: auto;
+  padding: 10px 20px;
+  cursor: pointer;
+  height: fit-content;
+}
+
+.multi_image_slider .carousel-control-prev::before,
+.multi_image_slider .carousel-control-next::before {
+  content: '';
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-size: contain;
+}
+
+.multi_image_slider .carousel-control-prev::before {
+  background-image: url('data:image/svg+xml;charset=UTF-8,%3Csvg xmlns%3D%22http%3A//www.w3.org/2000/svg%22 fill%3D%22%23000%22 viewBox%3D%220 0 16 16%22%3E%3Cpath d%3D%22M11.354 1.646a.5.5 0 0 1 0 .708L6.707 7H15.5a.5.5 0 0 1 0 1H6.707l4.647 4.646a.5.5 0 0 1-.708.708l-5-5a.5.5 0 0 1 0-.708l5-5a.5.5 0 0 1 .708 0z%22/%3E%3C/svg%3E');
+}
+
+.multi_image_slider .carousel-control-next::before {
+  background-image: url('data:image/svg+xml;charset=UTF-8,%3Csvg xmlns%3D%22http%3A//www.w3.org/2000/svg%22 fill%3D%22%23000%22 viewBox%3D%220 0 16 16%22%3E%3Cpath d%3D%22M4.646 1.646a.5.5 0 0 1 .708 0l5 5a.5.5 0 0 1 0 .708l-5 5a.5.5 0 0 1-.708-.708L9.293 8 4.646 3.354a.5.5 0 0 1 0-.708z%22/%3E%3C/svg%3E');
 }
