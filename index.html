@@ -26,6 +26,7 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 	<!-- font awesome cdn -->
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
 
 
 </head>
@@ -40,7 +41,7 @@
 			<button style="box-shadow: none;" id="btn-bar" class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo">
 				<i id="icon-nav" class="fa-solid fa-bars-staggered"></i>
 			</button>
-			<div class="offcanvas offcanvas-end d-inline d-md-none bg-dark text-light" id="demo">
+			<div class="offcanvas offcanvas-end d-inline d-md-none text-light" id="demo">
 				<button type="button" class="btn-close btn-light" data-bs-dismiss="offcanvas"></button>
 				<div class="navbar-collapse">
 					<ul class="navbar-nav ml-auto">
@@ -71,17 +72,10 @@
 		</div>
 	</nav>
 
-	<div id="particles-js"></div>
-	<div class="count-particles">
-	
-		<span class="js-count-particles">--</span> particles
-		
-	  </div></div>
-
-	
-
-<!-- hero section -->
-
+<div class="overlay-container">
+		<div class="shadow">
+		</div>
+</div>
 <div class="container-fluid" id="hero-container">
 	<div   class="row d-flex align-items-center justify-content-center">
 		<div style="margin-top: 100px;"  class="col-md-5  ftco-animate d-flex align-items-center justify-content-center">
@@ -242,29 +236,62 @@
 				</div>
 			</div>
 		</div>
-	</section>
-	<section class="ftco-section bg-darken">
-		<div class="container">
-			<div class="col-md-12 col-lg-3 pr-md-4 pb-lg-0 pb-4 d-flex align-items-center ">
-				<div class="heading-section heading-section-white ftco-animate text-center text-lg-center mb-4">
-					<span class="subheading">Team &amp; Staff</span>
-					<h2>Our Team</h2>
-					<p><a href="#" class="btn btn-primary">View All Staff</a></p>
+	</section>	<section class="ftco-section py-0">
+		<!-- visions statement -->
+		<div class="container my-5 vision_main">
+			<div class="row">
+				<div class="col-md-6 mb-4">
+					<div class="card card-custom card-blue">
+						<div class="card-body text-white">
+							<div class="card-icon">
+								<img src="images/company-vision.png" alt="Icon">
+							</div>
+							<h3 class="card-title fs-2 fw-bolder">Our Vision</h3>
+							<p style="text-align: justify;">To be a global leader in innovative technology solutions, empowering businesses...</p>
+							<a href="about.html" class="btn btn-link text-white">Learn more →</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 mb-4">
+					<div class="card card-custom card-teal">
+						<div class="card-body text-white">
+							<div class="card-icon">
+								<img src="images/corporate.png" alt="Icon">
+							</div>
+							<h5 class="card-title fs-2 fw-bolder" >Our Mission</h5>
+							<p style="text-align: justify;">Our Mission is to make the world better by delivering technology that improves our clients' success....</p>
+							<a href="about.html" class="btn btn-link text-white">Learn more →</a>
+						</div>
+					</div>
 				</div>
 			</div>
-			<div class="row">
+		</div>
+		</section>
 
+	<section class="ftco-section bg-darken">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 pb-4 ">
+					<div class="heading-section heading-section-white ftco-animate text-center  mb-4">
+						<span class="subheading text-secondary">Team &amp; Staff</span>
+						<h2>Our Team</h2>
+						<p><a href="#" class="btn btn-primary px-4">View All Staff</a></p>
+					</div>
+				</div>
+			</div>
+			
+			<div class="row">
 				<div class="col-md-12">
 					<div class="row">
 						<div class="col-md-3 coco-animate d-flex">
 							<div class="staff">
 								<div class="img-wrap d-flex align-items-stretch">
-									<div class="img align-self-stretch"
-										style="background-image: url(images/hassan.jpg)"></div>
+									<!-- <div class="img align-self-stretch"
+										style="background-image: url(images/hassan.jpg)"></div> -->
 								</div>
 								<div class="text pt-3 px-3 pb-4 text-center">
 									<h3>Hassan Shafiq</h3>
-									<span class="position">MERN Stack Developer</span>
+									<span class="position text-secondary">Founder & CEO</span>
 									<div class="faded">
 										<ul class="ftco-social text-center">
 											<li class="ftco-animate"><a href="#"
@@ -285,13 +312,13 @@
 						<div class="col-md-3 coco-animate d-flex">
 							<div class="staff">
 								<div class="img-wrap d-flex align-items-stretch">
-									<div class="img align-self-stretch"
-										style="background-image: url(images/rashid.jpg)"></div>
+									<!-- <div class="img align-self-stretch"
+										style="background-image: url(images/rashid.jpg)"></div> -->
 
 								</div>
 								<div class="text pt-3 px-3 pb-4 text-center">
 									<h3>Rashid Nazeer</h3>
-									<span class="position">Graphic Designer</span>
+									<span class="position text-secondary">Co-Founder </span>
 									<div class="faded">
 										<ul class="ftco-social text-center">
 											<li class="ftco-animate"><a href="#"
@@ -313,12 +340,12 @@
 						<div class="col-md-3 ftco-animate d-flex">
 							<div class="staff">
 								<div class="img-wrap d-flex align-items-stretch">
-									<div class="img align-self-stretch"
-										style="background-image: url(images/ahmad1.jpg);"></div>
+									<!-- <div class="img align-self-stretch"
+										style="background-image: url(images/ahmad1.jpg);"></div> -->
 								</div>
 								<div class="text pt-3 px-3 pb-4 text-center">
-									<h3>Ahmad Bhatti</h3>
-									<span class="position">PHP Laravel Developer</span>
+									<h3>Kashif Ali</h3>
+									<span class="position text-secondary">Co-founder & Tech Head</span>
 									<div class="faded">
 										<ul class="ftco-social text-center">
 											<li class="ftco-animate"><a href="#"
@@ -340,13 +367,13 @@
 						<div class="col-md-3 coco-animate d-flex">
 							<div class="staff">
 								<div class="img-wrap d-flex align-items-stretch">
-									<div class="img align-self-stretch" style="background-image: url(images/bilal.jpg)">
-									</div>
+									<!-- <div class="img align-self-stretch" style="background-image: url(images/bilal.jpg)">
+									</div> -->
 
 								</div>
 								<div class="text pt-3 px-3 pb-4 text-center">
 									<h3>Muhammad Bilal</h3>
-									<span class="position">PHP Laravel Develper</span>
+									<span class="position text-secondary">Senior Developer</span>
 									<div class="faded">
 										<ul class="ftco-social text-center">
 											<li class="ftco-animate"><a href="#"
@@ -368,12 +395,12 @@
 						<div class="col-md-3 ftco-animate d-flex">
 							<div class="staff">
 								<div class="img-wrap d-flex align-items-stretch">
-									<div class="img align-self-stretch"
-										style="background-image: url(images/kashif.jpg);"></div>
+									<!-- <div class="img align-self-stretch"
+										style="background-image: url(images/kashif.jpg);"></div> -->
 								</div>
 								<div class="text pt-3 px-3 pb-4 text-center">
-									<h3>Kashif Ali</h3>
-									<span class="position">React Native Developer</span>
+									<h3>Ahmad Qasim</h3>
+									<span class="position text-secondary">Social Media Manager</span>
 									<div class="faded">
 										<ul class="ftco-social text-center">
 											<li class="ftco-animate"><a href="#"
@@ -395,12 +422,12 @@
 						<div class="col-md-3 ftco-animate d-flex">
 							<div class="staff">
 								<div class="img-wrap d-flex align-items-stretch">
-									<div class="img align-self-stretch"
-										style="background-image: url(images/shayan.jpg);"></div>
+									<!-- <div class="img align-self-stretch"
+										style="background-image: url(images/shayan.jpg);"></div> -->
 								</div>
 								<div class="text pt-3 px-3 pb-4 text-center">
 									<h3>Shayan Zulfiqar</h3>
-									<span class="position">Frontend Developer</span>
+									<span class="position text-secondary">Frontend Designer</span>
 									<div class="faded">
 										<ul class="ftco-social text-center">
 											<li class="ftco-animate"><a href="#"
@@ -422,12 +449,12 @@
 						<div class="col-md-3 ftco-animate d-flex">
 							<div class="staff">
 								<div class="img-wrap d-flex align-items-stretch">
-									<div class="img align-self-stretch"
-										style="background-image: url(images/abdul.jpg);"></div>
+									<!-- <div class="img align-self-stretch"
+										style="background-image: url(images/abdul.jpg);"></div> -->
 								</div>
 								<div class="text pt-3 px-3 pb-4 text-center">
 									<h3>Abdur Rehamn</h3>
-									<span class="position">Flutter Developer</span>
+									<span class="position text-secondary">Senior Developer</span>
 									<div class="faded">
 										<ul class="ftco-social text-center">
 											<li class="ftco-animate"><a href="#"
@@ -441,7 +468,6 @@
 											<li class="ftco-animate"><a href="#"
 													class="d-flex align-items-center justify-content-center"><span
 														class="fa fa-instagram"></span></a></li>
-
 										</ul>
 									</div>
 								</div>
@@ -500,6 +526,8 @@
 			</div>
 		</div>
 	</section>
+
+	
 	<!-- ======= Portfolio Section ======= -->
 	<section class="ftco-section bg-light">
 		<div class="container">
@@ -866,10 +894,10 @@
 			<div class="row mb-5">
 				<div class="col-sm-12 col-md">
 					<div class="ftco-footer-widget mb-4">
-						<h2 class="ftco-heading-2 logo"><a href="#" style="text-decoration: none;">Tech Sphere Logix</a>
-						</h2>
-
-						<p>A Complete IT Solution Campany</p>
+					<a href="index.html">	
+						<img src="images/short2.png" width="60" alt="">
+					</a>
+						<p class="mt-3">Your Trusted Partner For Comprehensive IT Solutions</p>
 						<ul class="ftco-footer-social list-unstyled mt-0">
 							<li class="ftco-animate"><a href=""><span class="fa fa-linkedin"></span></a></li>
 							<li class="ftco-animate"><a href=""><span class="fa fa-facebook"></span></a></li>
@@ -882,9 +910,9 @@
 					<div class="ftco-footer-widget mb-4 ml-md-4">
 						<h2 class="ftco-heading-2">Explore</h2>
 						<ul class="list-unstyled">
-							<li><a href="about.html"><span class="fa fa-chevron-right mr-2"></span>About</a></li>
-							<li><a href="contact.html"><span class="fa fa-chevron-right mr-2"></span>Contact</a></li>
-							<li><a href="portfolio.html"><span class="fa fa-chevron-right mr-2"></span>Portfolio</a>
+							<li><a href="services.html"><span class="fa fa-chevron-right mr-2"></span>Services</a></li>
+							<li><a href="portfolio.html"><span class="fa fa-chevron-right mr-2"></span>Portfolio</a></li>
+							<li><a href="projects.html"><span class="fa fa-chevron-right mr-2"></span>Our Projects</a>
 							</li>
 
 						</ul>
@@ -934,11 +962,11 @@
 						<h2 class="ftco-heading-2">Have a Questions?</h2>
 						<div class="block-23 mb-3">
 							<ul>
-								<li><span class="icon fa fa-map marker"></span><span class="text">51 mor Sunny pull Rahimyarkhan</span></li>
-								<li><a href="https://api.whatsapp.com/send/?phone=%2B923089850893&fbclid=IwZXh0bgNhZW0CMTAAAR0O0Yi8HhvaXKJy8NHF9QyeglR0j90MRt-SnIM95c9jQh2FsEfY7qdg6oA_aem_ijwB8Za-WWX4IZ7GHl7ACA "><span class="icon fa fa-phone"></span><span class="text">+92 320 5314580</span></a></li>
-								<li><a href="#"><span class="icon fa fa-paper-plane pr-4"></span><span
+								<li><i class="fa fa-map icon"></i><span class="text">51 Mor Pull Sanny Rahim Yar Khan</span></li>
+								<li><a href="https://api.whatsapp.com/send/?phone=%2B923089850893&fbclid=IwZXh0bgNhZW0CMTAAAR0O0Yi8HhvaXKJy8NHF9QyeglR0j90MRt-SnIM95c9jQh2FsEfY7qdg6oA_aem_ijwB8Za-WWX4IZ7GHl7ACA "><i class="fa fas fa-phone-square icon"></i><span class="text">+92 308 9850 893</span></a></li>
+								<li><a href="mailto:info@techspherelogix.com"><i class="fa fab fa-facebook-messenger icon"></i><span
 											class="text"><span class="__cf_email__"
-												data-cfemail="640d0a020b241d0b1116000b09050d0a4a070b09">[email&#160;techspherelogix@gmail.com]</span></span></a>
+												data-cfemail="640d0a020b241d0b1116000b09050d0a4a070b09">info@techspherelogix.com</span></span></a>
 								</li>
 							</ul>
 						</div>
@@ -946,15 +974,15 @@
 				</div>
 			</div>
 		</div>
-		<div class="container-fluid px-0 py-5 bg-black">
+		<div class="container-fluid px-0 py-5 " style="border-top:2px solid #dee2e606;">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-12">
+					<div class="col-md-12 text-center">
 						<p class="mb-0" style="color: rgba(255,255,255,.5);">
 							Copyright &copy;
 							<script data-cfasync="false"
 								src="cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.html"></script>
-							<script>document.write(new Date().getFullYear());</script> All rights reserved | <i class="fa fa-heart color-danger" aria-hidden="true"></i> <a
+							<script>document.write(new Date().getFullYear());</script> All rights reserved | <a
 								href="#" target="_blank" rel="nofollow noopener">Tech Sphere Logix</a>
 							<!-- <script>
 								document.write(new Date().getFullYear());
