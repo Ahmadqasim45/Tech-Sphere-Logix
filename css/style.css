@@ -64,6 +64,7 @@ body {
   color: #212529;
   text-align: left;
   background-color: #fff;
+
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -5404,6 +5405,9 @@ canvas {
     top:50%;
     left:5%;
   }
+  /* .ftco-navbar-light .container{
+    margin-top:
+  } */
   
 }
 
@@ -5413,5 +5417,5 @@ canvas {
     top:40%;
     left:5%;
   }
-  
+ 
 }
