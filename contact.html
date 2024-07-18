@@ -147,65 +147,67 @@
 							</div>
 						</div>
 						<div class="row no-gutters">
-							<div class="col-md-7">
-								<div class="contact-wrap w-100 p-md-5 p-4">
-									<h3 class="mb-4">Contact Us</h3>
-									<form action="email.php" method="POST" id="contactForm" name="contactForm"
-										class="contactForm" action="">
-										<div class="row">
-											<div class="col-md-6">
-												<div class="form-group">
-													<label class="label" for="name">Full Name</label>
-													<input type="text" class="form-control" name="name" id="name"
-														placeholder="Name">
-												</div>
-											</div>
-											<div class="col-md-6">
-												<div class="form-group">
-													<label class="label" for="email">Email Address</label>
-													<input type="email" class="form-control" name="email" id="email"
-														placeholder="Email">
-												</div>
-											</div>
-											<div class="col-md-12">
-												<div class="form-group">
-													<label class="label" for="subject">Subject</label>
-													<input type="text" class="form-control" name="subject" id="subject"
-														placeholder="Subject">
-												</div>
-											</div>
-											<div class="col-md-12">
-												<div class="form-group">
-													<label class="label" for="message">Message</label>
-													<textarea name="message" class="form-control" id="message" cols="30"
-														rows="4" placeholder="Message"></textarea>
-												</div>
-											</div>
-											<div class="col-md-12">
-												<div class="form-group">
-													<input type="submit" value="Send Message" class="btn btn-primary">
-													<div class="submitting"></div>
-												</div>
-											</div>
-										</div>
-									</form>
-								</div>
-							</div>
-							<div class="col-md-5 d-flex align-items-stretch">
-								<iframe
-									src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14035.748334223743!2d70.28042030170192!3d28.421155256012828!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39375b1e9362b181%3A0x961d7948722b8c8!2s51%20Moor!5e0!3m2!1sen!2s!4v1720119366528!5m2!1sen!2s"
-									width="600" height="560" style="border:3px solid white;" allowfullscreen=""
-									loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
+							
 			<!-- <div class="col-md-12 mt-5"> -->
 
 		</div>
 		</div>
 		</div>
+	</section>
+	<!-- cotact and map section -->
+	 <section>
+	 <div class="container-fluid" style="background-color: #09161c;margin-bottom:100px;padding-bottom:30px;">
+		<div class="row">
+			<div class="col-md-6" data-aos="fade-left">
+				<!-- from -->
+				<div class="form-container-custom">
+					<h1 class="form-heading-custom">CONNECT <span class="form-heading-span-custom">WITH US</span></h1>
+					<p class="form-description-custom">Get a Free Quote Now!</p>
+					<!-- <?php session_start(); ?>
+					<?php if(isset($_SESSION['message'])): ?>
+						<p class="message-custom"><?php echo $_SESSION['message']; ?></p>
+						<?php unset($_SESSION['message']); ?> Clear session message after displaying -->
+					 <!-- <?php endif; ?> --> 
+					<form class="contact-form-custom" action="form_handler.php" method="post">
+						<input type="text" name="name" class="form-input-custom" placeholder="Enter Your Name" required>
+						<input type="email" name="email" class="form-input-custom" placeholder="Enter Your Email" required>
+						<input type="text" name="phone" class="form-input-custom" placeholder="Enter Phone Number" required>
+						<input type="text" name="city" class="form-input-custom" placeholder="City" required>
+						<input type="text" name="business" class="form-input-custom" placeholder="Enter Your Business Name" required>
+						<select name="interest" class="form-select-custom" required>
+							<option value="">I'm interested in?</option>
+							<option value="web development">Web Development</option>
+							<option value="app development">App Development</option>
+							<option value="ecommerce">Software Development</option>
+							<option value="ecommerce">Graphics Designing</option>
+							<option value="ecommerce">Digital Marketing</option>
+							<option value="ui ux design">UI/UX Design</option>
+							<option value="ecommerce">Wordpress</option>
+							<option value="ecommerce">Shopify</option>
+							<option value="ecommerce">WebFlow</option>
+							<textarea placeholder="Hello Tech Sphere Logix" name="messge" id="msg"></textarea>
+							
+							<!-- <option value="seo">SEO Services</option> -->
+						</select>
+						<button  type="submit" class="form-button-custom">SUBMIT</button>
+					</form>
+				</div>
+				
+				
+				 <!-- end form -->
+			</div>
+			<div class="col-md-5 d-flex align-items-stretch">
+				<iframe
+					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14035.748334223743!2d70.28042030170192!3d28.421155256012828!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39375b1e9362b181%3A0x961d7948722b8c8!2s51%20Moor!5e0!3m2!1sen!2s!4v1720119366528!5m2!1sen!2s"
+				 class="map-api" style="border:0px solid white;" allowfullscreen=""
+					loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+		</div>
+	 </div>
 	</section>
 
 	<footer class="ftco-footer">

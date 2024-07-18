@@ -5254,7 +5254,7 @@ textarea.form-control {
 
 /* Reset default margin and padding */
 
-
+.map-api,
 .form-container-custom {
     background-color: #09161c9a; /* Black with 70% opacity */
     padding: 20px;
@@ -5295,6 +5295,7 @@ textarea.form-control {
 
 .form-input-custom,
 .form-select-custom,
+#msg,
 .form-button-custom {
     width: calc(400px - 20px); /* Width with gap adjustment */
     padding: 7px;
@@ -5314,6 +5315,7 @@ textarea.form-control {
 @media screen and (max-width:576px) {
   .form-input-custom,
   .form-select-custom,
+  #msg,
   .form-button-custom {
       width: calc(330px - 20px); /* Width with gap adjustment */
       padding: 7px;
@@ -5360,6 +5362,16 @@ textarea.form-control {
     margin-top: 10px;
     border: 1px solid #d6e9c6;
     text-align: center;
+}
+.msg:focus{
+  background-color: #dff0d8;
+    color: #3c763d;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    border: 1px solid #d6e9c6;
+    text-align: center;
+  
 }
 
 /* end form code */
@@ -5537,3 +5549,12 @@ textarea.form-control {
 .multi_image_slider .carousel-control-next::before {
   background-image: url('data:image/svg+xml;charset=UTF-8,%3Csvg xmlns%3D%22http%3A//www.w3.org/2000/svg%22 fill%3D%22%23000%22 viewBox%3D%220 0 16 16%22%3E%3Cpath d%3D%22M4.646 1.646a.5.5 0 0 1 .708 0l5 5a.5.5 0 0 1 0 .708l-5 5a.5.5 0 0 1-.708-.708L9.293 8 4.646 3.354a.5.5 0 0 1 0-.708z%22/%3E%3C/svg%3E');
 }
+/* map api */
+.map-api{
+  margin-top: 100px;
+   border-radius:15px;
+  width: 425px;
+  height: 530px;
+
+}
+/* emd map api */
