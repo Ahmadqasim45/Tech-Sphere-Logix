@@ -2480,7 +2480,7 @@ h5,
 @media screen and (min-width:576px) and (max-width:1282px) {
   .ftco-services .services{
     
-      margin-top: 100px;
+      margin-top: -100px;
       background: #fff;
     }
     .pb-lg-0{
@@ -5363,16 +5363,7 @@ textarea.form-control {
     border: 1px solid #d6e9c6;
     text-align: center;
 }
-.msg:focus{
-  background-color: #dff0d8;
-    color: #3c763d;
-    padding: 10px;
-    border-radius: 5px;
-    margin-top: 10px;
-    border: 1px solid #d6e9c6;
-    text-align: center;
-  
-}
+
 
 /* end form code */
 /* home hero container */
@@ -5382,37 +5373,11 @@ textarea.form-control {
   color: white;
   font-family: poppins;
   text-align: center;
-  height: 700px;
+  height: fit-content;
   overflow: hidden;
 }
 
-#particles-other-pages{
-  position: absolute;
-  width: 80%;
-  top:70%;
-  left:10%
-}
 
-@media screen and (max-width:576px)and (min-width:0px) {
-  #particles-other-pages{
-    /* position: absolute; */
-    top:50%;
-    left:5%;
-  }
-  /* .ftco-navbar-light .container{
-    margin-top:
-  } */
-  
-}
-
-@media screen and (max-width:900px)and (min-width:577px) {
-  #particles-other-pages{
-    /* position: absolute; */
-    top:40%;
-    left:5%;
-  }
- 
-}
 /*  */
 .overlay-container{
    width: 100%;
@@ -5558,3 +5523,13 @@ textarea.form-control {
 
 }
 /* emd map api */
+
+
+
+/* responsive hero */
+#parent-hero-container{
+height: 800px;
+}
+
+
+/*  */
