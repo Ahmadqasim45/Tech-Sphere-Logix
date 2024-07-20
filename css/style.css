@@ -5558,3 +5558,15 @@ height: 800px;
   
   height: 500px;
 }
+@media screen and (max-width:576px) and (min-width:0px) {
+  
+  #hero-container-other{
+    background-image: linear-gradient(3.141592653589793rad, hsla(0,0%,0%,1) 0%,rgb(1, 50, 64) 110%) !important;
+    
+    height: 300px;
+  }
+  #heading-hero{
+    padding-bottom: 300px;
+    text-align: center;
+  }
+}
