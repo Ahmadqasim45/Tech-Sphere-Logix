@@ -5553,3 +5553,8 @@ height: 800px;
 
 
 /*  */
+#hero-container-other{
+  background-image: linear-gradient(3.141592653589793rad, hsla(0,0%,0%,1) 0%,rgb(1, 50, 64) 110%) !important;
+  
+  height: 500px;
+}
