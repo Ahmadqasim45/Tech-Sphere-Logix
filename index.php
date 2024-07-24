@@ -1,5 +1,4 @@
 <?php
-<?php
 ob_start(); // Start output buffering
 session_start(); // Start session  
 ?>
