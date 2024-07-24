@@ -5,7 +5,7 @@ session_start(); // Start session
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Tech Sphere Logix</title>
+	<title>Software Services</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link
@@ -244,10 +244,10 @@ session_start(); // Start session
 										</a>
 											<p class="mt-3">Your Trusted Partner For Comprehensive IT Solutions</p>
 											<ul class="ftco-footer-social list-unstyled mt-0">
-												<li class="ftco-animate"><a href=""><span class="fa fa-linkedin"></span></a></li>
-												<li class="ftco-animate"><a href=""><span class="fa fa-facebook"></span></a></li>
-												<li class="ftco-animate"><a href=""><span class="fa fa-instagram"></span></a></li>
-											</ul>
+							<li class="ftco-animate"><a href="https://www.linkedin.com/company/tech-sphere-logix/"><span class="fa fa-linkedin"></span></a></li>
+							<li class="ftco-animate"><a href="https://www.facebook.com/profile.php?id=61561550277288&mibextid=ZbWKwL"><span class="fa fa-facebook"></span></a></li>
+							<li class="ftco-animate"><a href="https://www.linkedin.com/company/tech-sphere-logix/"><span class="fa fa-instagram"></span></a></li>
+						</ul>
 					
 										</div>
 									</div>

@@ -6,7 +6,7 @@ session_start(); // Start session
 <html lang="en">
 
 <head>
-	<title>Tech Sphere Logix</title>
+	<title>Our portfolio</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link
@@ -86,130 +86,128 @@ session_start(); // Start session
 		</section>
 			
 
-	<!-- particles section -->
-
-	
 		<!-- ======= Portfolio Section ======= -->
 		<section class="ftco-section bg-light">
-			<div class="container">
-				<div class="row justify-content-center pb-5">
-					<div class="col-md-12 heading-section text-center ftco-animate">
-						<span class="subheading">Recent Portfolio</span>
-						<h2 class="mb-4">Our Exceptional Quality Work</h2>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-4 ftco-animate">
-						<div class="project-wrap img d-flex align-items-end" style="background-image: url(images/web.png);">
-							<div class="text">
-								<span>Web</span>
-								<h3><a href="web1-services.html">Creative Web Apps</a></h3>
-								<a href="web1-services.html"
-									class="icon d-flex align-items-center justify-content-center"><span
-										class="fa fa-chevron-right"></span></a>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-4 ftco-animate">
-						<div class="project-wrap img d-flex align-items-end" style="background-image: url(images/App.jpg);">
-							<div class="text">
-								<span>App</span>
-								<h3><a href="app-services.html">Creative Apps</a></h3>
-								<a href="app-services.html"
-									class="icon d-flex align-items-center justify-content-center"><span
-										class="fa fa-chevron-right"></span></a>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-4 ftco-animate">
-						<div class="project-wrap img d-flex align-items-end"
-							style="background-image: url(images/work-3.jpg);">
-							<div class="text">
-								<span>Shopify</span>
-								<h3><a href="shopify-services.html">Creative Shopify Apps</a></h3>
-								<a href="shopify-services.html"
-									class="icon d-flex align-items-center justify-content-center"><span
-										class="fa fa-chevron-right"></span></a>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-4 ftco-animate">
-						<div class="project-wrap img d-flex align-items-end"
-							style="background-image: url(images/work-4.jpg);">
-							<div class="text">
-								<span>Wordpress</span>
-								<h3><a href="wordpress-services.html">Creative Wordpress</a></h3>
-								<a href="wordpress-services.html"
-									class="icon d-flex align-items-center justify-content-center"><span
-										class="fa fa-chevron-right"></span></a>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-4 ftco-animate">
-						<div class="project-wrap img d-flex align-items-end"
-							style="background-image: url(images/wordpress.jpg);">
-							<div class="text">
-								<span>Web Flow</span>
-								<h3><a href="webflow-services.html">Creative Web Flow Apps</a></h3>
-								<a href="webflow-services.html"
-									class="icon d-flex align-items-center justify-content-center"><span
-										class="fa fa-chevron-right"></span></a>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-4 ftco-animate">
-						<div class="project-wrap img d-flex align-items-end"
-							style="background-image: url(images/graphic.jpg);">
-							<div class="text">
-								<span>Graphics</span>
-								<h3><a href="graphic-services.html">Creative Design</a></h3>
-								<a href="graphic-services.html"
-									class="icon d-flex align-items-center justify-content-center"><span
-										class="fa fa-chevron-right"></span></a>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-4 ftco-animate">
-						<div class="project-wrap img d-flex align-items-end"
-							style="background-image: url(images/portfolio-software-development-1.jpg);">
-							<div class="text">
-								<span>Software</span>
-								<h3><a href="software-services.html">Software Development</a></h3>
-								<a href="software-services.html"
-									class="icon d-flex align-items-center justify-content-center"><span
-										class="fa fa-chevron-right"></span></a>
-							</div>
-						</div>
-					</div>
-	
-					<div class="col-md-4 ftco-animate">
-						<div class="project-wrap img d-flex align-items-end"
-							style="background-image: url(images/portfolio-md-1.jpg);">
-							<div class="text">
-								<span>Marketing</span>
-								<h3><a href="marketing-services.html">Digital Marketing</a></h3>
-								<a href="marketing-services.html"
-									class="icon d-flex align-items-center justify-content-center"><span
-										class="fa fa-chevron-right"></span></a>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-4 ftco-animate">
-						<div class="project-wrap img d-flex align-items-end"
-							style="background-image: url(images/portfolioux.jpg);">
-							<div class="text">
-								<span>UX/UI</span>
-								<h3><a href="UXUI.html">User Interface</a></h3>
-								<a href="UXUI.html"
-									class="icon d-flex align-items-center justify-content-center"><span
-										class="fa fa-chevron-right"></span></a>
-							</div>
-						</div>
-					</div>
-	
+		<div class="container">
+			<div class="row justify-content-center pb-5">
+				<div class="col-md-12 heading-section text-center ftco-animate">
+					<span class="subheading">Recent Portfolio</span>
+					<h2 class="mb-4">Our Exceptional Quality Work</h2>
 				</div>
 			</div>
-		</section>
+			<div class="row">
+				<div class="col-md-4 ftco-animate">
+					<div class="project-wrap img d-flex align-items-end" style="background-image: url(images/web.png);">
+						<div class="text">
+							<span>Web</span>
+							<h3><a href="web1-services.html">Creative Web Apps</a></h3>
+							<a href="web1-services.php"
+								class="icon d-flex align-items-center justify-content-center"><span
+									class="fa fa-chevron-right"></span></a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 ftco-animate">
+					<div class="project-wrap img d-flex align-items-end" style="background-image: url(images/App.jpg);">
+						<div class="text">
+							<span>App</span>
+							<h3><a href="app-services.html">Creative Apps</a></h3>
+							<a href="app-services.php"
+								class="icon d-flex align-items-center justify-content-center"><span
+									class="fa fa-chevron-right"></span></a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 ftco-animate">
+					<div class="project-wrap img d-flex align-items-end"
+						style="background-image: url(images/work-3.jpg);">
+						<div class="text">
+							<span>Shopify</span>
+							<h3><a href="shopify-services.html">Creative Shopify Apps</a></h3>
+							<a href="shopify-services.php"
+								class="icon d-flex align-items-center justify-content-center"><span
+									class="fa fa-chevron-right"></span></a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 ftco-animate">
+					<div class="project-wrap img d-flex align-items-end"
+						style="background-image: url(images/work-4.jpg);">
+						<div class="text">
+							<span>Wordpress</span>
+							<h3><a href="wordpress-services.html">Creative Wordpress</a></h3>
+							<a href="wordpress-services.php"
+								class="icon d-flex align-items-center justify-content-center"><span
+									class="fa fa-chevron-right"></span></a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 ftco-animate">
+					<div class="project-wrap img d-flex align-items-end"
+						style="background-image: url(images/wordpress.jpg);">
+						<div class="text">
+							<span>Web Flow</span>
+							<h3><a href="webflow-services.html">Creative Web Flow Apps</a></h3>
+							<a href="webflow-services.php"
+								class="icon d-flex align-items-center justify-content-center"><span
+									class="fa fa-chevron-right"></span></a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 ftco-animate">
+					<div class="project-wrap img d-flex align-items-end"
+						style="background-image: url(images/graphic.jpg);">
+						<div class="text">
+							<span>Graphics</span>
+							<h3><a href="graphic-services.html">Creative Design</a></h3>
+							<a href="graphic-services.php"
+								class="icon d-flex align-items-center justify-content-center"><span
+									class="fa fa-chevron-right"></span></a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 ftco-animate">
+					<div class="project-wrap img d-flex align-items-end"
+						style="background-image: url(images/portfolio-software-development-1.jpg);">
+						<div class="text">
+							<span>Software</span>
+							<h3><a href="software-services.html">Software Development</a></h3>
+							<a href="software-services.php"
+								class="icon d-flex align-items-center justify-content-center"><span
+									class="fa fa-chevron-right"></span></a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-4 ftco-animate">
+					<div class="project-wrap img d-flex align-items-end"
+						style="background-image: url(images/portfolio-md-1.jpg);">
+						<div class="text">
+							<span>Marketing</span>
+							<h3><a href="marketing-services.html">Digital Marketing</a></h3>
+							<a href="marketing-services.php"
+								class="icon d-flex align-items-center justify-content-center"><span
+									class="fa fa-chevron-right"></span></a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 ftco-animate">
+					<div class="project-wrap img d-flex align-items-end"
+						style="background-image: url(images/portfolioux.jpg);">
+						<div class="text">
+							<span>UX/UI</span>
+							<h3><a href="UXUI.html">User Interface</a></h3>
+							<a href="UXUI.php"
+								class="icon d-flex align-items-center justify-content-center"><span
+									class="fa fa-chevron-right"></span></a>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</section>
+	
 
 		<section>
 						<div class="container-fluid" style="background-color: #09161c;margin-bottom:100px;padding-bottom:30px;">
@@ -271,9 +269,9 @@ session_start(); // Start session
 					</a>
 						<p class="mt-3">Your Trusted Partner For Comprehensive IT Solutions</p>
 						<ul class="ftco-footer-social list-unstyled mt-0">
-							<li class="ftco-animate"><a href=""><span class="fa fa-linkedin"></span></a></li>
-							<li class="ftco-animate"><a href=""><span class="fa fa-facebook"></span></a></li>
-							<li class="ftco-animate"><a href=""><span class="fa fa-instagram"></span></a></li>
+							<li class="ftco-animate"><a href="https://www.linkedin.com/company/tech-sphere-logix/"><span class="fa fa-linkedin"></span></a></li>
+							<li class="ftco-animate"><a href="https://www.facebook.com/profile.php?id=61561550277288&mibextid=ZbWKwL"><span class="fa fa-facebook"></span></a></li>
+							<li class="ftco-animate"><a href="https://www.linkedin.com/company/tech-sphere-logix/"><span class="fa fa-instagram"></span></a></li>
 						</ul>
 
 					</div>

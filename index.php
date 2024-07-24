@@ -1,4 +1,4 @@
-<?php 
+<?php
 ob_start(); // Start output buffering
 session_start(); // Start session  
 ?>
@@ -47,34 +47,47 @@ session_start(); // Start session
 		<div class="container">
 			<a class="navbar-brand" href="index.html"><img id="tsl-logo" class="img-fluid" src="images/short2.png"
 					alt=""></a>
-			<button style="box-shadow: none;" id="btn-bar" class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo">
+			<button style="box-shadow: none;" id="btn-bar" class="navbar-toggler" type="button"
+				data-bs-toggle="offcanvas" data-bs-target="#demo">
 				<i id="icon-nav" class="fa-solid fa-bars-staggered"></i>
 			</button>
 			<div class="offcanvas offcanvas-end d-inline d-md-none text-light" id="demo">
 				<button type="button" class="btn-close btn-light" data-bs-dismiss="offcanvas"></button>
 				<div class="navbar-collapse">
 					<ul class="navbar-nav ml-auto">
-						<li class="nav-item active"><a href="index.php" class="nav-link"><i class="fa-solid fa-house me-2"></i>Home</a></li>
-						<li class="nav-item"><a href="about.php" class="nav-link"><i class="fa-solid fa-circle-info me-2"></i>About</a></li>
-						<li class="nav-item"><a href="services.php" class="nav-link"><i class="fa-solid fa-gears me-2"></i>Services</a></li>
-						<li class="nav-item"><a href="projects.php" class="nav-link"><i class="fa-solid fa-hand-holding-hand me-2"></i>Our Projects</a></li>
-						<li class="nav-item"><a href="portfolio.php" class="nav-link"><i class="fa-solid fa-briefcase me-2"></i>Portfolio</a></li>
-	
-						<li class="nav-item"><a href="contact.php" class="nav-link"><i class="fa-solid fa-address-book me-2"></i>Contact</a></li>
-	
+						<li class="nav-item active"><a href="index.php" class="nav-link"><i
+									class="fa-solid fa-house me-2"></i>Home</a></li>
+						<li class="nav-item"><a href="about.php" class="nav-link"><i
+									class="fa-solid fa-circle-info me-2"></i>About</a></li>
+						<li class="nav-item"><a href="services.php" class="nav-link"><i
+									class="fa-solid fa-gears me-2"></i>Services</a></li>
+						<li class="nav-item"><a href="projects.php" class="nav-link"><i
+									class="fa-solid fa-hand-holding-hand me-2"></i>Our Projects</a></li>
+						<li class="nav-item"><a href="portfolio.php" class="nav-link"><i
+									class="fa-solid fa-briefcase me-2"></i>Portfolio</a></li>
+
+						<li class="nav-item"><a href="contact.php" class="nav-link"><i
+									class="fa-solid fa-address-book me-2"></i>Contact</a></li>
+
 					</ul>
 				</div>
-				
-			  </div>
+
+			</div>
 			<div class="collapse navbar-collapse d-none d-md-inline " id="ftco-nav">
 				<ul class="navbar-nav ml-auto">
-					<li class="nav-item active"><a href="index.php" class="nav-link"><i class="fa-solid fa-house me-2"></i>Home</a></li>
-					<li class="nav-item"><a href="about.php" class="nav-link"><i class="fa-solid fa-circle-info me-2"></i>About</a></li>
-					<li class="nav-item"><a href="services.php" class="nav-link"><i class="fa-solid fa-gears me-2"></i>Services</a></li>
-					<li class="nav-item"><a href="projects.php" class="nav-link"><i class="fa-solid fa-hand-holding-hand me-2"></i>Our Projects</a></li>
-					<li class="nav-item"><a href="portfolio.php" class="nav-link"><i class="fa-solid fa-briefcase me-2"></i>Portfolio</a></li>
+					<li class="nav-item active"><a href="index.php" class="nav-link"><i
+								class="fa-solid fa-house me-2"></i>Home</a></li>
+					<li class="nav-item"><a href="about.php" class="nav-link"><i
+								class="fa-solid fa-circle-info me-2"></i>About</a></li>
+					<li class="nav-item"><a href="services.php" class="nav-link"><i
+								class="fa-solid fa-gears me-2"></i>Services</a></li>
+					<li class="nav-item"><a href="projects.php" class="nav-link"><i
+								class="fa-solid fa-hand-holding-hand me-2"></i>Our Projects</a></li>
+					<li class="nav-item"><a href="portfolio.php" class="nav-link"><i
+								class="fa-solid fa-briefcase me-2"></i>Portfolio</a></li>
 
-					<li class="nav-item"><a href="contact.php" class="nav-link"><i class="fa-solid fa-address-book me-2"></i>Contact</a></li>
+					<li class="nav-item"><a href="contact.php" class="nav-link"><i
+								class="fa-solid fa-address-book me-2"></i>Contact</a></li>
 
 				</ul>
 			</div>
@@ -82,57 +95,64 @@ session_start(); // Start session
 	</nav>
 
 
-<div class="container-fluid" id="hero-container">
-	<div   class="row d-flex align-items-center justify-content-center">
-		<div style="margin-top: 100px;"  class="col-md-5  ftco-animate d-flex align-items-center justify-content-center">
-			<div class="text w-100">
-				<span class="subheading" data-aos="fade-up">Welcome to Tech Sphere Logix </h2></span>
-				<h1 style="font-weight: bold;margin-top:40px;" data-aos="fade-up">A leading IT Services Provider Firm dedicated to Crafting Solutions.</h1>
-				<p class="mb-4" data-aos="fade-up">We empower businesses with cutting-edge technology, exceptional design, and innovative thinking to reach new heights.</p>
-				<!-- <p><a href="#" class="btn btn-primary">Learn More</a>  -->
-					<a href="portfolio.html"
-						class="btn btn-white" data-aos="fade-up">View Portfolio</a></p>
+	<div class="container-fluid" id="hero-container">
+		<div class="row d-flex align-items-center justify-content-center">
+			<div style="margin-top: 100px;"
+				class="col-md-5  ftco-animate d-flex align-items-center justify-content-center">
+				<div class="text w-100">
+					<span class="subheading" data-aos="fade-up">Welcome to Tech Sphere Logix </h2></span>
+					<h1 style="font-weight: bold;margin-top:40px;" data-aos="fade-up">A leading IT Services Provider
+						Firm dedicated to Crafting Solutions.</h1>
+					<p class="mb-4" data-aos="fade-up">We empower businesses with cutting-edge technology, exceptional
+						design, and innovative thinking to reach new heights.</p>
+					<!-- <p><a href="#" class="btn btn-primary">Learn More</a>  -->
+					<a href="portfolio.html" class="btn btn-white" data-aos="fade-up">View Portfolio</a></p>
+				</div>
+				<!-- 2nd section heading -->
 			</div>
-			 <!-- 2nd section heading -->
-		</div>
- <div class="col-md-5" data-aos="fade-left">
-      <!-- Contact Form -->
-<div class="form-container-custom">
-    <h1 class="form-heading-custom">CONNECT <span class="form-heading-span-custom">WITH US</span></h1>
-    <p class="form-description-custom">Get a Free Quote Now!</p>
-    <?php if (isset($_SESSION['message'])): ?>
-        <p class="message-custom"><?php echo $_SESSION['message']; ?></p>
-        <?php unset($_SESSION['message']); ?> <!-- Clear session message after displaying -->
-    <?php endif; ?>
-    <form class="contact-form-custom" action="form_handler.php" method="post">
-	<input type="hidden" name="current_page" value="<?php echo htmlspecialchars(basename($_SERVER['PHP_SELF'])); ?>">
+			<div class="col-md-5" data-aos="fade-left">
+   <!-- Contact Form -->
+   <div class="form-container-custom">
+        <h1 class="form-heading-custom">CONNECT <span class="form-heading-span-custom">WITH US</span></h1>
+        <p class="form-description-custom">Get a Free Quote Now!</p>
+        <div id="form-message" class="message-custom" style="display:none;"></div>
+        <form id="contact-form" class="contact-form-custom" method="POST" action="form_handler.php">
+            <input type="hidden" name="current_page" value="<?php echo htmlspecialchars(basename($_SERVER['PHP_SELF'])); ?>">
 
-        <input type="text" name="name" class="form-input-custom" placeholder="Enter Your Name" required>
-        <input type="email" name="email" class="form-input-custom" placeholder="Enter Your Email" required>
-        <input type="text" name="phone" class="form-input-custom" placeholder="Enter Phone Number" required>
-        <input type="text" name="city" class="form-input-custom" placeholder="City" required>
-        <input type="text" name="business" class="form-input-custom" placeholder="Enter Your Business Name" required>
-        <select name="interest" class="form-select-custom" required>
-            <option value="">I'm interested in?</option>
-            <option value="web development">Web Development</option>
-            <option value="app development">App Development</option>
-            <option value="software development">Software Development</option>
-            <option value="graphics designing">Graphics Designing</option>
-            <option value="digital marketing">Digital Marketing</option>
-            <option value="ui ux design">UI/UX Design</option>
-            <option value="wordpress">WordPress</option>
-            <option value="shopify">Shopify</option>
-            <option value="webflow">WebFlow</option>
-        </select>
-        <textarea name="message" id="msg" placeholder="Hello Tech Sphere Logix"></textarea>
-        <button type="submit" name="submit" class="form-button-custom">SUBMIT</button>
-    </form>
-</div>
-<!-- End Contact Form -->
+            <input type="text" name="name" class="form-input-custom" placeholder="Enter Your Name" required>
+            <input type="email" name="email" class="form-input-custom" placeholder="Enter Your Email" required>
+            <input type="text" name="phone" class="form-input-custom" placeholder="Enter Phone Number" required>
+            <input type="text" name="city" class="form-input-custom" placeholder="City" required>
+            <input type="text" name="business" class="form-input-custom" placeholder="Enter Your Business Name" required>
+            <select name="interest" class="form-select-custom" required>
+                <option value="">I'm interested in?</option>
+                <option value="web development">Web Development</option>
+                <option value="app development">App Development</option>
+                <option value="software development">Software Development</option>
+                <option value="graphics designing">Graphics Designing</option>
+                <option value="digital marketing">Digital Marketing</option>
+                <option value="ui ux design">UI/UX Design</option>
+                <option value="wordpress">WordPress</option>
+                <option value="shopify">Shopify</option>
+                <option value="webflow">WebFlow</option>
+            </select>
+            <textarea name="message" id="msg" placeholder="Hello Tech Sphere Logix"></textarea>
+            <button type="submit" name="submit" class="form-button-custom">SUBMIT</button>
+        </form>
     </div>
+    <!-- End Contact Form -->
+
+    <script>
+        $(document).ready(function() {
+            $('#contact-form').on('submit', function(event) {
+                $('#form-message').text('Please Wait...').show(); // Show "Please Wait" message
+            });
+        });
+    </script>
+			</div>
+		</div>
 	</div>
-</div>
- <!-- end hero section -->
+	<!-- end hero section -->
 
 	<section class="ftco-section ftco-services ftco-no-pt bg-light">
 		<div class="container container-2">
@@ -145,9 +165,9 @@ session_start(); // Start session
 							<p>Tech Sphere Logix specializes in creating intuitive UX/UI designs that prioritize user
 								satisfaction and engagement. We focus on enhancing usability and aesthetics for seamless
 								digital experiences.
-								<p>
+							<p>
 						</div>
-						<a href="services.html" class="btn-custom d-flex align-items-center justify-content-center"><span
+						<a href="services.php" class="btn-custom d-flex align-items-center justify-content-center"><span
 								class="fa fa-chevron-right"></span></a>
 					</div>
 				</div>
@@ -159,9 +179,9 @@ session_start(); // Start session
 							<p>Tech Sphere Logix excels in developing innovative web applications tailored to your
 								business needs, utilizing cutting-edge technology to ensure robust performance and
 								seamless user experiences.
-								<p>
+							<p>
 						</div>
-						<a href="services.html" class="btn-custom d-flex align-items-center justify-content-center"><span
+						<a href="services.php" class="btn-custom d-flex align-items-center justify-content-center"><span
 								class="fa fa-chevron-right"></span></a>
 					</div>
 				</div>
@@ -173,9 +193,9 @@ session_start(); // Start session
 							<p>Tech Sphere Logix enhances brands with captivating visual identities and strategic social
 								media marketing. We create impactful campaigns that resonate and elevate brand presence
 								in the digital landscape.
-								<p>
+							<p>
 						</div>
-						<a href="services.html" class="btn-custom d-flex align-items-center justify-content-center"><span
+						<a href="services.php" class="btn-custom d-flex align-items-center justify-content-center"><span
 								class="fa fa-chevron-right"></span></a>
 					</div>
 				</div>
@@ -184,9 +204,11 @@ session_start(); // Start session
 						<div class="icon d-flex"><span class="flaticon-stats"></span></div>
 						<div class="media-body">
 							<h3 class="heading mb-3">Graphics</h3>
-							<p>We provide graphic designing services, creating visually stunning and impactful designs that effectively communicate your brand’s message and captivate your audience.<p>
+							<p>We provide graphic designing services, creating visually stunning and impactful designs
+								that effectively communicate your brand’s message and captivate your audience.
+							<p>
 						</div>
-						<a href="services.html" class="btn-custom d-flex align-items-center justify-content-center"><span
+						<a href="services.php" class="btn-custom d-flex align-items-center justify-content-center"><span
 								class="fa fa-chevron-right"></span></a>
 					</div>
 				</div>
@@ -244,7 +266,8 @@ session_start(); // Start session
 				</div>
 			</div>
 		</div>
-	</section>	<section class="ftco-section py-0">
+	</section>
+	<section class="ftco-section py-0">
 		<!-- visions statement -->
 		<div class="container my-5 vision_main">
 			<div class="row">
@@ -255,7 +278,8 @@ session_start(); // Start session
 								<img src="images/company-vision.png" alt="Icon">
 							</div>
 							<h3 class="card-title fs-2 fw-bolder">Our Vision</h3>
-							<p style="text-align: justify;">To be a global leader in innovative technology solutions, empowering businesses...</p>
+							<p style="text-align: justify;">To be a global leader in innovative technology solutions,
+								empowering businesses...</p>
 							<a href="about.html" class="btn btn-link text-white">Learn more →</a>
 						</div>
 					</div>
@@ -266,15 +290,16 @@ session_start(); // Start session
 							<div class="card-icon">
 								<img src="images/corporate.png" alt="Icon">
 							</div>
-							<h5 class="card-title fs-2 fw-bolder" >Our Mission</h5>
-							<p style="text-align: justify;">Our Mission is to make the world better by delivering technology that improves our clients' success....</p>
+							<h5 class="card-title fs-2 fw-bolder">Our Mission</h5>
+							<p style="text-align: justify;">Our Mission is to make the world better by delivering
+								technology that improves our clients' success....</p>
 							<a href="about.html" class="btn btn-link text-white">Learn more →</a>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-		</section>
+	</section>
 
 	<section class="ftco-section bg-darken">
 		<div class="container">
@@ -287,7 +312,7 @@ session_start(); // Start session
 					</div>
 				</div>
 			</div>
-			
+
 			<div class="row">
 				<div class="col-md-12">
 					<div class="row">
@@ -302,14 +327,17 @@ session_start(); // Start session
 									<span class="position text-secondary">Founder & CEO</span>
 									<div class="faded">
 										<ul class="ftco-social text-center">
-											<li class="ftco-animate"><a href="#"
+											<li class="ftco-animate"><a
+													href="https://www.linkedin.com/company/tech-sphere-logix/"
 													class="d-flex align-items-center justify-content-center"><span
 														class="fa fa-linkedin"></span></a></li>
-											<li class="ftco-animate"><a href="#"
+											<li class="ftco-animate"><a
+													href="https://www.facebook.com/profile.php?id=61561550277288&mibextid=ZbWKwL"
 													class="d-flex align-items-center justify-content-center"><span
 														class="fa fa-facebook"></span></a></li>
 
-											<li class="ftco-animate"><a href="#"
+											<li class="ftco-animate"><a
+													href="https://www.instagram.com/techspherelogix?igsh=cHgwNzM0bnN0MjJq"
 													class="d-flex align-items-center justify-content-center"><span
 														class="fa fa-instagram"></span></a></li>
 										</ul>
@@ -329,15 +357,18 @@ session_start(); // Start session
 									<span class="position text-secondary">Co-Founder </span>
 									<div class="faded">
 										<ul class="ftco-social text-center">
-											<li class="ftco-animate"><a href="#"
+											<li class="ftco-animate"><a
+													href="https://www.linkedin.com/company/tech-sphere-logix/"
 													class="d-flex align-items-center justify-content-center"><span
 														class="fa fa-linkedin"></span></a></li>
 
-											<li class="ftco-animate"><a href="#"
+											<li class="ftco-animate"><a
+													href="https://www.facebook.com/profile.php?id=61561550277288&mibextid=ZbWKwL"
 													class="d-flex align-items-center justify-content-center"><span
 														class="fa fa-facebook"></span></a></li>
 
-											<li class="ftco-animate"><a href="#"
+											<li class="ftco-animate"><a
+													href="https://www.instagram.com/techspherelogix?igsh=cHgwNzM0bnN0MjJq"
 													class="d-flex align-items-center justify-content-center"><span
 														class="fa fa-instagram"></span></a></li>
 										</ul>
@@ -356,15 +387,18 @@ session_start(); // Start session
 									<span class="position text-secondary">Co-founder & Tech Head</span>
 									<div class="faded">
 										<ul class="ftco-social text-center">
-											<li class="ftco-animate"><a href="#"
+											<li class="ftco-animate"><a
+													href="https://www.linkedin.com/company/tech-sphere-logix/"
 													class="d-flex align-items-center justify-content-center"><span
 														class="fa fa-linkedin"></span></a></li>
 
-											<li class="ftco-animate"><a href="#"
+											<li class="ftco-animate"><a
+													href="https://www.facebook.com/profile.php?id=61561550277288&mibextid=ZbWKwL"
 													class="d-flex align-items-center justify-content-center"><span
 														class="fa fa-facebook"></span></a></li>
 
-											<li class="ftco-animate"><a href="#"
+											<li class="ftco-animate"><a
+													href="https://www.instagram.com/techspherelogix?igsh=cHgwNzM0bnN0MjJq"
 													class="d-flex align-items-center justify-content-center"><span
 														class="fa fa-instagram"></span></a></li>
 										</ul>
@@ -384,15 +418,18 @@ session_start(); // Start session
 									<span class="position text-secondary">Senior Developer</span>
 									<div class="faded">
 										<ul class="ftco-social text-center">
-											<li class="ftco-animate"><a href="#"
+											<li class="ftco-animate"><a
+													href="https://www.linkedin.com/company/tech-sphere-logix/"
 													class="d-flex align-items-center justify-content-center"><span
 														class="fa fa-linkedin"></span></a></li>
 
-											<li class="ftco-animate"><a href="#"
+											<li class="ftco-animate"><a
+													href="https://www.facebook.com/profile.php?id=61561550277288&mibextid=ZbWKwL"
 													class="d-flex align-items-center justify-content-center"><span
 														class="fa fa-facebook"></span></a></li>
 
-											<li class="ftco-animate"><a href="#"
+											<li class="ftco-animate"><a
+													href="https://www.instagram.com/techspherelogix?igsh=cHgwNzM0bnN0MjJq"
 													class="d-flex align-items-center justify-content-center"><span
 														class="fa fa-instagram"></span></a></li>
 										</ul>
@@ -411,15 +448,18 @@ session_start(); // Start session
 									<span class="position text-secondary">Social Media Manager</span>
 									<div class="faded">
 										<ul class="ftco-social text-center">
-											<li class="ftco-animate"><a href="#"
+											<li class="ftco-animate"><a
+													href="https://www.linkedin.com/company/tech-sphere-logix/"
 													class="d-flex align-items-center justify-content-center"><span
 														class="fa fa-linkedin"></span></a></li>
 
-											<li class="ftco-animate"><a href="#"
+											<li class="ftco-animate"><a
+													href="https://www.facebook.com/profile.php?id=61561550277288&mibextid=ZbWKwL"
 													class="d-flex align-items-center justify-content-center"><span
 														class="fa fa-facebook"></span></a></li>
 
-											<li class="ftco-animate"><a href="#"
+											<li class="ftco-animate"><a
+													href="https://www.instagram.com/techspherelogix?igsh=cHgwNzM0bnN0MjJq"
 													class="d-flex align-items-center justify-content-center"><span
 														class="fa fa-instagram"></span></a></li>
 										</ul>
@@ -438,15 +478,18 @@ session_start(); // Start session
 									<span class="position text-secondary">Frontend Designer</span>
 									<div class="faded">
 										<ul class="ftco-social text-center">
-											<li class="ftco-animate"><a href="#"
+											<li class="ftco-animate"><a
+													href="https://www.linkedin.com/company/tech-sphere-logix/"
 													class="d-flex align-items-center justify-content-center"><span
 														class="fa fa-linkedin"></span></a></li>
 
-											<li class="ftco-animate"><a href="#"
+											<li class="ftco-animate"><a
+													href="https://www.facebook.com/profile.php?id=61561550277288&mibextid=ZbWKwL"
 													class="d-flex align-items-center justify-content-center"><span
 														class="fa fa-facebook"></span></a></li>
 
-											<li class="ftco-animate"><a href="#"
+											<li class="ftco-animate"><a
+													href="https://www.instagram.com/techspherelogix?igsh=cHgwNzM0bnN0MjJq"
 													class="d-flex align-items-center justify-content-center"><span
 														class="fa fa-instagram"></span></a></li>
 										</ul>
@@ -465,15 +508,18 @@ session_start(); // Start session
 									<span class="position text-secondary">Senior Developer</span>
 									<div class="faded">
 										<ul class="ftco-social text-center">
-											<li class="ftco-animate"><a href="#"
+											<li class="ftco-animate"><a
+													href="https://www.linkedin.com/company/tech-sphere-logix/"
 													class="d-flex align-items-center justify-content-center"><span
 														class="fa fa-linkedin"></span></a></li>
 
-											<li class="ftco-animate"><a href="#"
+											<li class="ftco-animate"><a
+													href="https://www.facebook.com/profile.php?id=61561550277288&mibextid=ZbWKwL"
 													class="d-flex align-items-center justify-content-center"><span
 														class="fa fa-facebook"></span></a></li>
 
-											<li class="ftco-animate"><a href="#"
+											<li class="ftco-animate"><a
+													href="https://www.instagram.com/techspherelogix?igsh=cHgwNzM0bnN0MjJq"
 													class="d-flex align-items-center justify-content-center"><span
 														class="fa fa-instagram"></span></a></li>
 										</ul>
@@ -516,7 +562,7 @@ session_start(); // Start session
 						<div class="icon d-flex align-items-center justify-content-center"><span
 								class="flaticon-customer-service"></span></div>
 						<div class="text pl-3">
-							<strong class="number" data-number="20">0</strong>
+							<strong class="number" data-number="9">0</strong>
 							<span>Services Provide</span>
 						</div>
 					</div>
@@ -535,7 +581,7 @@ session_start(); // Start session
 		</div>
 	</section>
 
-	
+
 	<!-- ======= Portfolio Section ======= -->
 	<section class="ftco-section bg-light">
 		<div class="container">
@@ -551,7 +597,7 @@ session_start(); // Start session
 						<div class="text">
 							<span>Web</span>
 							<h3><a href="web1-services.html">Creative Web Apps</a></h3>
-							<a href="web1-services.html"
+							<a href="web1-services.php"
 								class="icon d-flex align-items-center justify-content-center"><span
 									class="fa fa-chevron-right"></span></a>
 						</div>
@@ -562,7 +608,7 @@ session_start(); // Start session
 						<div class="text">
 							<span>App</span>
 							<h3><a href="app-services.html">Creative Apps</a></h3>
-							<a href="app-services.html"
+							<a href="app-services.php"
 								class="icon d-flex align-items-center justify-content-center"><span
 									class="fa fa-chevron-right"></span></a>
 						</div>
@@ -574,7 +620,7 @@ session_start(); // Start session
 						<div class="text">
 							<span>Shopify</span>
 							<h3><a href="shopify-services.html">Creative Shopify Apps</a></h3>
-							<a href="shopify-services.html"
+							<a href="shopify-services.php"
 								class="icon d-flex align-items-center justify-content-center"><span
 									class="fa fa-chevron-right"></span></a>
 						</div>
@@ -586,7 +632,7 @@ session_start(); // Start session
 						<div class="text">
 							<span>Wordpress</span>
 							<h3><a href="wordpress-services.html">Creative Wordpress</a></h3>
-							<a href="wordpress-services.html"
+							<a href="wordpress-services.php"
 								class="icon d-flex align-items-center justify-content-center"><span
 									class="fa fa-chevron-right"></span></a>
 						</div>
@@ -598,7 +644,7 @@ session_start(); // Start session
 						<div class="text">
 							<span>Web Flow</span>
 							<h3><a href="webflow-services.html">Creative Web Flow Apps</a></h3>
-							<a href="webflow-services.html"
+							<a href="webflow-services.php"
 								class="icon d-flex align-items-center justify-content-center"><span
 									class="fa fa-chevron-right"></span></a>
 						</div>
@@ -610,7 +656,7 @@ session_start(); // Start session
 						<div class="text">
 							<span>Graphics</span>
 							<h3><a href="graphic-services.html">Creative Design</a></h3>
-							<a href="graphic-services.html"
+							<a href="graphic-services.php"
 								class="icon d-flex align-items-center justify-content-center"><span
 									class="fa fa-chevron-right"></span></a>
 						</div>
@@ -622,7 +668,7 @@ session_start(); // Start session
 						<div class="text">
 							<span>Software</span>
 							<h3><a href="software-services.html">Software Development</a></h3>
-							<a href="software-services.html"
+							<a href="software-services.php"
 								class="icon d-flex align-items-center justify-content-center"><span
 									class="fa fa-chevron-right"></span></a>
 						</div>
@@ -635,7 +681,7 @@ session_start(); // Start session
 						<div class="text">
 							<span>Marketing</span>
 							<h3><a href="marketing-services.html">Digital Marketing</a></h3>
-							<a href="marketing-services.html"
+							<a href="marketing-services.php"
 								class="icon d-flex align-items-center justify-content-center"><span
 									class="fa fa-chevron-right"></span></a>
 						</div>
@@ -647,8 +693,7 @@ session_start(); // Start session
 						<div class="text">
 							<span>UX/UI</span>
 							<h3><a href="UXUI.html">User Interface</a></h3>
-							<a href="UXUI.html"
-								class="icon d-flex align-items-center justify-content-center"><span
+							<a href="UXUI.php" class="icon d-flex align-items-center justify-content-center"><span
 									class="fa fa-chevron-right"></span></a>
 						</div>
 					</div>
@@ -657,7 +702,7 @@ session_start(); // Start session
 			</div>
 		</div>
 	</section>
-	
+
 
 
 	<section class="ftco-section ftco-faqs services-section">
@@ -690,7 +735,7 @@ session_start(); // Start session
 											class="d-flex py-3 px-4 align-items-center justify-content-between btn btn-link"
 											data-parent="#accordion" data-toggle="collapse" aria-expanded="true"
 											aria-controls="collapseOne">
-											<p class="mb-0">How to fixed a problem?</p>
+											<p class="mb-0">What services do you offer?</p>
 											<i class="fa" aria-hidden="true"></i>
 										</button>
 									</h2>
@@ -698,17 +743,16 @@ session_start(); // Start session
 								<div class="collapse show" id="collapseOne" role="tabpanel"
 									aria-labelledby="headingOne">
 									<div class="card-body py-3 px-0">
-										<ol>
-											<li>Identify IT issues and their impact on operations.</li>
-											<li>Develop tailored solutions aligned with business goals and timelines.
-											</li>
-											<li>Execute fixes with minimal disruption using skilled IT professionals.
-											</li>
-											<li>Regularly review and adjust systems to ensure sustained performance.
-											</li>
-											<li>Provide ongoing maintenance and responsive IT support for reliability.
-											</li>
-										</ol>
+
+
+										<p class="p-faq">
+											We offer comprehensive services including Web, App, and Software development
+											|| Graphic Designing || UI/UX Designing || and expertise in Shopify ||
+											Webflow, and WordPress development, delivering tailored solutions for your
+											Business needs.
+										</p>
+
+
 									</div>
 								</div>
 							</div>
@@ -719,21 +763,18 @@ session_start(); // Start session
 											class="d-flex py-3 px-4 align-items-center justify-content-between btn btn-link"
 											data-parent="#accordion" data-toggle="collapse" aria-expanded="false"
 											aria-controls="collapseTwo">
-											<p class="mb-0">How to manage your Website?</p>
+											<p class="mb-0">How can your software solutions benefit my business?</p>
 											<i class="fa" aria-hidden="true"></i>
 										</button>
 									</h2>
 								</div>
 								<div class="collapse" id="collapseTwo" role="tabpanel" aria-labelledby="headingTwo">
 									<div class="card-body py-3 px-0">
-										<ol>
-											<li>Regularly refresh content and software for relevance and security.</li>
-											<li>Monitor traffic and user behavior for informed decision-making.</li>
-											<li>Improve speed, usability, and SEO to enhance user experience.</li>
-											<li>Regularly back up data to prevent loss in unforeseen events.</li>
-											<li>Implement robust security measures to protect against cyber threats.
-											</li>
-										</ol>
+										<p class="p-faq">
+											Our software solutions streamline operations, improve efficiency, and
+											enhance customer experience, leading to increased productivity and business
+											growth.
+										</p>
 									</div>
 								</div>
 							</div>
@@ -744,21 +785,19 @@ session_start(); // Start session
 											class="d-flex py-3 px-4 align-items-center justify-content-between btn btn-link"
 											data-parent="#accordion" data-toggle="collapse" aria-expanded="false"
 											aria-controls="collapseThree">
-											<p class="mb-0">How to grow your investments funds?</p>
+											<p class="mb-0">How I can Get Your Services</p>
 											<i class="fa" aria-hidden="true"></i>
 										</button>
 									</h2>
 								</div>
 								<div class="collapse" id="collapseThree" role="tabpanel" aria-labelledby="headingTwo">
 									<div class="card-body py-3 px-0">
-										<ol>
-											<li>Spread investments across various asset classes.</li>
-											<li>Use earned dividends to buy more investment shares.
-											</li>
-											<li>Frequently review and adjust your investment strategies.</li>
-
-											<li>Keep updated on market trends and financial news.</li>
-										</ol>
+										<p class="p-faq">
+											To get our services, simply fill out our <a href="/contact.php"> contact
+												form </a> or email us. We’ll schedule a consultation to discuss your
+											needs, provide a detailed proposal, and once approved, begin working on your
+											project with regular updates and communication.
+										</p>
 									</div>
 								</div>
 							</div>
@@ -769,18 +808,14 @@ session_start(); // Start session
 											class="d-flex py-3 px-4 align-items-center justify-content-between btn btn-link"
 											data-parent="#accordion" data-toggle="collapse" aria-expanded="false"
 											aria-controls="collapseFour">
-											<p class="mb-0">What are those requirements for businesses?</p>
+											<p class="mb-0">How do you ensure the security of your software?</p>
 											<i class="fa" aria-hidden="true"></i>
 										</button>
 									</h2>
 								</div>
 								<div class="collapse" id="collapseFour" role="tabpanel" aria-labelledby="headingTwo">
 									<div class="card-body py-3 px-0">
-										<p>Businesses need a solid business plan, financial management, market research,
-											compliance with regulations, quality control, reliable suppliers, CRM tools,
-											health and safety measures, data security, and scalability planning for
-											sustainable growth.
-										</p>
+
 									</div>
 								</div>
 							</div>
@@ -792,20 +827,24 @@ session_start(); // Start session
 	</section>
 
 
-	
+
 	<footer class="ftco-footer">
 		<div class="container">
 			<div class="row mb-5">
 				<div class="col-sm-12 col-md">
 					<div class="ftco-footer-widget mb-4">
-					<a href="index.html">	
-						<img src="images/short2.png" width="60" alt="">
-					</a>
+						<a href="index.html">
+							<img src="images/short2.png" width="60" alt="">
+						</a>
 						<p class="mt-3">Your Trusted Partner For Comprehensive IT Solutions</p>
 						<ul class="ftco-footer-social list-unstyled mt-0">
-							<li class="ftco-animate"><a href=""><span class="fa fa-linkedin"></span></a></li>
-							<li class="ftco-animate"><a href=""><span class="fa fa-facebook"></span></a></li>
-							<li class="ftco-animate"><a href=""><span class="fa fa-instagram"></span></a></li>
+							<li class="ftco-animate"><a href="https://www.linkedin.com/company/tech-sphere-logix/"><span
+										class="fa fa-linkedin"></span></a></li>
+							<li class="ftco-animate"><a
+									href="https://www.facebook.com/profile.php?id=61561550277288&mibextid=ZbWKwL"><span
+										class="fa fa-facebook"></span></a></li>
+							<li class="ftco-animate"><a href="https://www.linkedin.com/company/tech-sphere-logix/"><span
+										class="fa fa-instagram"></span></a></li>
 						</ul>
 
 					</div>
@@ -826,20 +865,28 @@ session_start(); // Start session
 					<div class="ftco-footer-widget mb-4 ml-md-4">
 						<h2 class="ftco-heading-2">Services</h2>
 						<ul class="list-unstyled">
-							<li><a href="web1-services.html"><span class="fa fa-chevron-right mr-2"></span>Web Development</a></li>
-							<li><a href="app-services.html"><span class="fa fa-chevron-right mr-2"></span>App Development</a></li>
-							<li><a href="graphic-services.html"><span class="fa fa-chevron-right mr-2"></span>Graphic Designing</a></li>
-							<li><a href="software-services.html"><span class="fa fa-chevron-right mr-2"></span>Software Development</a></li>
-							<li><a href="marketing-services.html"><span class="fa fa-chevron-right mr-2"></span>Digital Marketing</a></li>
+							<li><a href="web1-services.html"><span class="fa fa-chevron-right mr-2"></span>Web
+									Development</a></li>
+							<li><a href="app-services.html"><span class="fa fa-chevron-right mr-2"></span>App
+									Development</a></li>
+							<li><a href="graphic-services.html"><span class="fa fa-chevron-right mr-2"></span>Graphic
+									Designing</a></li>
+							<li><a href="software-services.html"><span class="fa fa-chevron-right mr-2"></span>Software
+									Development</a></li>
+							<li><a href="marketing-services.html"><span class="fa fa-chevron-right mr-2"></span>Digital
+									Marketing</a></li>
 							<li><a href="UXUI.html"><span class="fa fa-chevron-right mr-2"></span>UI/UX</a></li>
-							<li><a href="wordpress-services.html"><span class="fa fa-chevron-right mr-2"></span>Wordpress</a></li>
-							<li><a href="shopify-services.html"><span class="fa fa-chevron-right mr-2"></span>Shopify</a></li>
-							<li><a href="webflow-services.html"><span class="fa fa-chevron-right mr-2"></span>Webflow</a></li>
-						
+							<li><a href="wordpress-services.html"><span
+										class="fa fa-chevron-right mr-2"></span>Wordpress</a></li>
+							<li><a href="shopify-services.html"><span
+										class="fa fa-chevron-right mr-2"></span>Shopify</a></li>
+							<li><a href="webflow-services.html"><span
+										class="fa fa-chevron-right mr-2"></span>Webflow</a></li>
 
-							
-							
-							
+
+
+
+
 						</ul>
 					</div>
 				</div>
@@ -852,10 +899,11 @@ session_start(); // Start session
 							<li><a href="contact.html"><span class="fa fa-chevron-right mr-2"></span>Contact</a></li>
 							<li><a href="services.html"><span class="fa fa-chevron-right mr-2"></span>Services</a></li>
 							<li><a href="projects.html"><span class="fa fa-chevron-right mr-2"></span>Projects</a></li>
-							<li><a href="portfolio.html"><span class="fa fa-chevron-right mr-2"></span>Portfolio</a></li>
+							<li><a href="portfolio.html"><span class="fa fa-chevron-right mr-2"></span>Portfolio</a>
+							</li>
 
-							
-							
+
+
 
 							<!-- <li><a href="#"><span class="fa fa-chevron-right mr-2"></span>Careers</a></li> -->
 						</ul>
@@ -866,10 +914,15 @@ session_start(); // Start session
 						<h2 class="ftco-heading-2">Have a Questions?</h2>
 						<div class="block-23 mb-3">
 							<ul>
-								<li><i class="fa fa-map icon"></i><span class="text">51 Mor Pull Sanny Rahim Yar Khan</span></li>
-								<li><a href="https://api.whatsapp.com/send/?phone=%2B923089850893&fbclid=IwZXh0bgNhZW0CMTAAAR0O0Yi8HhvaXKJy8NHF9QyeglR0j90MRt-SnIM95c9jQh2FsEfY7qdg6oA_aem_ijwB8Za-WWX4IZ7GHl7ACA "><i class="fa fas fa-phone-square icon"></i><span class="text">+92 308 9850 893</span></a></li>
-								<li><a href="mailto:info@techspherelogix.com"><i class="fa fab fa-facebook-messenger icon"></i><span
-											class="text"><span class="__cf_email__"
+								<li><i class="fa fa-map icon"></i><span class="text">51 Mor Pull Sanny Rahim Yar
+										Khan</span></li>
+								<li><a
+										href="https://api.whatsapp.com/send/?phone=%2B923089850893&fbclid=IwZXh0bgNhZW0CMTAAAR0O0Yi8HhvaXKJy8NHF9QyeglR0j90MRt-SnIM95c9jQh2FsEfY7qdg6oA_aem_ijwB8Za-WWX4IZ7GHl7ACA "><i
+											class="fa fas fa-phone-square icon"></i><span class="text">+92 308 9850
+											893</span></a></li>
+								<li><a href="mailto:info@techspherelogix.com"><i
+											class="fa fab fa-facebook-messenger icon"></i><span class="text"><span
+												class="__cf_email__"
 												data-cfemail="640d0a020b241d0b1116000b09050d0a4a070b09">info@techspherelogix.com</span></span></a>
 								</li>
 							</ul>
@@ -886,8 +939,8 @@ session_start(); // Start session
 							Copyright &copy;
 							<script data-cfasync="false"
 								src="cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.html"></script>
-							<script>document.write(new Date().getFullYear());</script> All rights reserved | <a
-								href="#" target="_blank" rel="nofollow noopener">Tech Sphere Logix</a>
+							<script>document.write(new Date().getFullYear());</script> All rights reserved | <a href="#"
+								target="_blank" rel="nofollow noopener">Tech Sphere Logix</a>
 							<!-- <script>
 								document.write(new Date().getFullYear());
 							</script> -->
@@ -930,4 +983,4 @@ session_start(); // Start session
 	<script src="js/scrollanimation.js"></script>
 </body>
 
-</html> 
+</html>

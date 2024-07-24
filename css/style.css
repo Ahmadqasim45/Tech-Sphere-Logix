@@ -5438,3 +5438,10 @@ height: 800px;
     text-align: center;
   }
 }
+/* faq section */
+.p-faq{
+  padding:5px;
+  text-align:center;
+  font-family: rajdhani;
+  font-weight: 600;
+}
