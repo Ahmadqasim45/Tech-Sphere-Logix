@@ -199,234 +199,216 @@ session_start(); // Start session
     </div>
   </section>
   <section class="ftco-section bg-darken">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12 pb-4">
-          <div class="heading-section heading-section-white ftco-animate text-center mb-4">
-            <span class="subheading text-secondary">Team &amp; Staff</span>
-            <h2>Our Team</h2>
-            <p><a href="#" class="btn btn-primary px-4">View All Staff</a></p>
-          </div>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-md-12">
-          <div class="row">
-            <div class="col-md-3 coco-animate d-flex">
-              <div class="staff">
-                <div class="img-wrap d-flex align-items-stretch">
-                  <!-- <div class="img align-self-stretch"
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 pb-4 ">
+					<div class="heading-section heading-section-white ftco-animate text-center  mb-4">
+						<span class="subheading text-secondary">Team &amp; Staff</span>
+						<h2>Our Team</h2>
+						<p><a href="#" class="btn btn-primary px-4">View All Staff</a></p>
+					</div>
+				</div>
+			</div>
+			
+			<div class="row">
+				<div class="col-md-12">
+					<div class="row">
+						<div class="col-md-3 coco-animate d-flex">
+							<div class="staff">
+								<div class="img-wrap d-flex align-items-stretch">
+									<!-- <div class="img align-self-stretch"
 										style="background-image: url(images/hassan.jpg)"></div> -->
-                </div>
-                <div class="text pt-3 px-3 pb-4 text-center">
-                  <h3>Hassan Shafiq</h3>
-                  <span class="position text-secondary">Founder & CEO</span>
-                  <div class="faded">
-                    <ul class="ftco-social text-center">
-                      <li class="ftco-animate">
-                        <a href="#" class="d-flex align-items-center justify-content-center"><span
-                            class="fa fa-linkedin"></span></a>
-                      </li>
-                      <li class="ftco-animate">
-                        <a href="#" class="d-flex align-items-center justify-content-center"><span
-                            class="fa fa-facebook"></span></a>
-                      </li>
+								</div>
+								<div class="text pt-3 px-3 pb-4 text-center">
+									<h3>Hassan Shafiq</h3>
+									<span class="position text-secondary">Founder & CEO</span>
+									<div class="faded">
+										<ul class="ftco-social text-center">
+											<li class="ftco-animate"><a href="https://www.linkedin.com/company/tech-sphere-logix/"
+													class="d-flex align-items-center justify-content-center"><span
+														class="fa fa-linkedin"></span></a></li>
+											<li class="ftco-animate"><a href="https://www.facebook.com/profile.php?id=61561550277288&mibextid=ZbWKwL"
+													class="d-flex align-items-center justify-content-center"><span
+														class="fa fa-facebook"></span></a></li>
 
-                      <li class="ftco-animate">
-                        <a href="#" class="d-flex align-items-center justify-content-center"><span
-                            class="fa fa-instagram"></span></a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-3 coco-animate d-flex">
-              <div class="staff">
-                <div class="img-wrap d-flex align-items-stretch">
-                  <!-- <div class="img align-self-stretch"
+											<li class="ftco-animate"><a href="https://www.instagram.com/techspherelogix?igsh=cHgwNzM0bnN0MjJq"
+													class="d-flex align-items-center justify-content-center"><span
+														class="fa fa-instagram"></span></a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3 coco-animate d-flex">
+							<div class="staff">
+								<div class="img-wrap d-flex align-items-stretch">
+									<!-- <div class="img align-self-stretch"
 										style="background-image: url(images/rashid.jpg)"></div> -->
-                </div>
-                <div class="text pt-3 px-3 pb-4 text-center">
-                  <h3>Rashid Nazeer</h3>
-                  <span class="position text-secondary">Co-Founder </span>
-                  <div class="faded">
-                    <ul class="ftco-social text-center">
-                      <li class="ftco-animate">
-                        <a href="#" class="d-flex align-items-center justify-content-center"><span
-                            class="fa fa-linkedin"></span></a>
-                      </li>
 
-                      <li class="ftco-animate">
-                        <a href="#" class="d-flex align-items-center justify-content-center"><span
-                            class="fa fa-facebook"></span></a>
-                      </li>
+								</div>
+								<div class="text pt-3 px-3 pb-4 text-center">
+									<h3>Rashid Nazeer</h3>
+									<span class="position text-secondary">Co-Founder </span>
+									<div class="faded">
+										<ul class="ftco-social text-center">
+											<li class="ftco-animate"><a href="https://www.linkedin.com/company/tech-sphere-logix/"
+													class="d-flex align-items-center justify-content-center"><span
+														class="fa fa-linkedin"></span></a></li>
 
-                      <li class="ftco-animate">
-                        <a href="#" class="d-flex align-items-center justify-content-center"><span
-                            class="fa fa-instagram"></span></a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-3 ftco-animate d-flex">
-              <div class="staff">
-                <div class="img-wrap d-flex align-items-stretch">
-                  <!-- <div class="img align-self-stretch"
+											<li class="ftco-animate"><a href="https://www.facebook.com/profile.php?id=61561550277288&mibextid=ZbWKwL"
+													class="d-flex align-items-center justify-content-center"><span
+														class="fa fa-facebook"></span></a></li>
+
+											<li class="ftco-animate"><a href="https://www.instagram.com/techspherelogix?igsh=cHgwNzM0bnN0MjJq"
+													class="d-flex align-items-center justify-content-center"><span
+														class="fa fa-instagram"></span></a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3 ftco-animate d-flex">
+							<div class="staff">
+								<div class="img-wrap d-flex align-items-stretch">
+									<!-- <div class="img align-self-stretch"
 										style="background-image: url(images/ahmad1.jpg);"></div> -->
-                </div>
-                <div class="text pt-3 px-3 pb-4 text-center">
-                  <h3>Kashif Ali</h3>
-                  <span class="position text-secondary">Co-founder & Tech Head</span>
-                  <div class="faded">
-                    <ul class="ftco-social text-center">
-                      <li class="ftco-animate">
-                        <a href="#" class="d-flex align-items-center justify-content-center"><span
-                            class="fa fa-linkedin"></span></a>
-                      </li>
+								</div>
+								<div class="text pt-3 px-3 pb-4 text-center">
+									<h3>Kashif Ali</h3>
+									<span class="position text-secondary">Co-founder & Tech Head</span>
+									<div class="faded">
+										<ul class="ftco-social text-center">
+											<li class="ftco-animate"><a href="https://www.linkedin.com/company/tech-sphere-logix/"
+													class="d-flex align-items-center justify-content-center"><span
+														class="fa fa-linkedin"></span></a></li>
 
-                      <li class="ftco-animate">
-                        <a href="#" class="d-flex align-items-center justify-content-center"><span
-                            class="fa fa-facebook"></span></a>
-                      </li>
+											<li class="ftco-animate"><a href="https://www.facebook.com/profile.php?id=61561550277288&mibextid=ZbWKwL"
+													class="d-flex align-items-center justify-content-center"><span
+														class="fa fa-facebook"></span></a></li>
 
-                      <li class="ftco-animate">
-                        <a href="#" class="d-flex align-items-center justify-content-center"><span
-                            class="fa fa-instagram"></span></a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-3 coco-animate d-flex">
-              <div class="staff">
-                <div class="img-wrap d-flex align-items-stretch">
-                  <!-- <div class="img align-self-stretch" style="background-image: url(images/bilal.jpg)">
+											<li class="ftco-animate"><a href="https://www.instagram.com/techspherelogix?igsh=cHgwNzM0bnN0MjJq"
+													class="d-flex align-items-center justify-content-center"><span
+														class="fa fa-instagram"></span></a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3 coco-animate d-flex">
+							<div class="staff">
+								<div class="img-wrap d-flex align-items-stretch">
+									<!-- <div class="img align-self-stretch" style="background-image: url(images/bilal.jpg)">
 									</div> -->
-                </div>
-                <div class="text pt-3 px-3 pb-4 text-center">
-                  <h3>Muhammad Bilal</h3>
-                  <span class="position text-secondary">Senior Developer</span>
-                  <div class="faded">
-                    <ul class="ftco-social text-center">
-                      <li class="ftco-animate">
-                        <a href="#" class="d-flex align-items-center justify-content-center"><span
-                            class="fa fa-linkedin"></span></a>
-                      </li>
 
-                      <li class="ftco-animate">
-                        <a href="#" class="d-flex align-items-center justify-content-center"><span
-                            class="fa fa-facebook"></span></a>
-                      </li>
+								</div>
+								<div class="text pt-3 px-3 pb-4 text-center">
+									<h3>Muhammad Bilal</h3>
+									<span class="position text-secondary">Senior Developer</span>
+									<div class="faded">
+										<ul class="ftco-social text-center">
+											<li class="ftco-animate"><a href="https://www.linkedin.com/company/tech-sphere-logix/"
+													class="d-flex align-items-center justify-content-center"><span
+														class="fa fa-linkedin"></span></a></li>
 
-                      <li class="ftco-animate">
-                        <a href="#" class="d-flex align-items-center justify-content-center"><span
-                            class="fa fa-instagram"></span></a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-3 ftco-animate d-flex">
-              <div class="staff">
-                <div class="img-wrap d-flex align-items-stretch">
-                  <!-- <div class="img align-self-stretch"
+											<li class="ftco-animate"><a href="https://www.facebook.com/profile.php?id=61561550277288&mibextid=ZbWKwL"
+													class="d-flex align-items-center justify-content-center"><span
+														class="fa fa-facebook"></span></a></li>
+
+											<li class="ftco-animate"><a href="https://www.instagram.com/techspherelogix?igsh=cHgwNzM0bnN0MjJq"
+													class="d-flex align-items-center justify-content-center"><span
+														class="fa fa-instagram"></span></a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3 ftco-animate d-flex">
+							<div class="staff">
+								<div class="img-wrap d-flex align-items-stretch">
+									<!-- <div class="img align-self-stretch"
 										style="background-image: url(images/kashif.jpg);"></div> -->
-                </div>
-                <div class="text pt-3 px-3 pb-4 text-center">
-                  <h3>Ahmad Qasim</h3>
-                  <span class="position text-secondary">Social Media Manager</span>
-                  <div class="faded">
-                    <ul class="ftco-social text-center">
-                      <li class="ftco-animate">
-                        <a href="#" class="d-flex align-items-center justify-content-center"><span
-                            class="fa fa-linkedin"></span></a>
-                      </li>
+								</div>
+								<div class="text pt-3 px-3 pb-4 text-center">
+									<h3>Ahmad Qasim</h3>
+									<span class="position text-secondary">Social Media Manager</span>
+									<div class="faded">
+										<ul class="ftco-social text-center">
+											<li class="ftco-animate"><a href="https://www.linkedin.com/company/tech-sphere-logix/"
+													class="d-flex align-items-center justify-content-center"><span
+														class="fa fa-linkedin"></span></a></li>
 
-                      <li class="ftco-animate">
-                        <a href="#" class="d-flex align-items-center justify-content-center"><span
-                            class="fa fa-facebook"></span></a>
-                      </li>
+											<li class="ftco-animate"><a href="https://www.facebook.com/profile.php?id=61561550277288&mibextid=ZbWKwL"
+													class="d-flex align-items-center justify-content-center"><span
+														class="fa fa-facebook"></span></a></li>
 
-                      <li class="ftco-animate">
-                        <a href="#" class="d-flex align-items-center justify-content-center"><span
-                            class="fa fa-instagram"></span></a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-3 ftco-animate d-flex">
-              <div class="staff">
-                <div class="img-wrap d-flex align-items-stretch">
-                  <!-- <div class="img align-self-stretch"
+											<li class="ftco-animate"><a href="https://www.instagram.com/techspherelogix?igsh=cHgwNzM0bnN0MjJq"
+													class="d-flex align-items-center justify-content-center"><span
+														class="fa fa-instagram"></span></a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3 ftco-animate d-flex">
+							<div class="staff">
+								<div class="img-wrap d-flex align-items-stretch">
+									<!-- <div class="img align-self-stretch"
 										style="background-image: url(images/shayan.jpg);"></div> -->
-                </div>
-                <div class="text pt-3 px-3 pb-4 text-center">
-                  <h3>Shayan Zulfiqar</h3>
-                  <span class="position text-secondary">Frontend Designer</span>
-                  <div class="faded">
-                    <ul class="ftco-social text-center">
-                      <li class="ftco-animate">
-                        <a href="#" class="d-flex align-items-center justify-content-center"><span
-                            class="fa fa-linkedin"></span></a>
-                      </li>
+								</div>
+								<div class="text pt-3 px-3 pb-4 text-center">
+									<h3>Shayan Zulfiqar</h3>
+									<span class="position text-secondary">Frontend Designer</span>
+									<div class="faded">
+										<ul class="ftco-social text-center">
+											<li class="ftco-animate"><a href="https://www.linkedin.com/company/tech-sphere-logix/"
+													class="d-flex align-items-center justify-content-center"><span
+														class="fa fa-linkedin"></span></a></li>
 
-                      <li class="ftco-animate">
-                        <a href="#" class="d-flex align-items-center justify-content-center"><span
-                            class="fa fa-facebook"></span></a>
-                      </li>
+											<li class="ftco-animate"><a href="https://www.facebook.com/profile.php?id=61561550277288&mibextid=ZbWKwL"
+													class="d-flex align-items-center justify-content-center"><span
+														class="fa fa-facebook"></span></a></li>
 
-                      <li class="ftco-animate">
-                        <a href="#" class="d-flex align-items-center justify-content-center"><span
-                            class="fa fa-instagram"></span></a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-3 ftco-animate d-flex">
-              <div class="staff">
-                <div class="img-wrap d-flex align-items-stretch">
-                  <!-- <div class="img align-self-stretch"
+											<li class="ftco-animate"><a href="https://www.instagram.com/techspherelogix?igsh=cHgwNzM0bnN0MjJq"
+													class="d-flex align-items-center justify-content-center"><span
+														class="fa fa-instagram"></span></a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3 ftco-animate d-flex">
+							<div class="staff">
+								<div class="img-wrap d-flex align-items-stretch">
+									<!-- <div class="img align-self-stretch"
 										style="background-image: url(images/abdul.jpg);"></div> -->
-                </div>
-                <div class="text pt-3 px-3 pb-4 text-center">
-                  <h3>Abdur Rehamn</h3>
-                  <span class="position text-secondary">Senior Developer</span>
-                  <div class="faded">
-                    <ul class="ftco-social text-center">
-                      <li class="ftco-animate">
-                        <a href="#" class="d-flex align-items-center justify-content-center"><span
-                            class="fa fa-linkedin"></span></a>
-                      </li>
+								</div>
+								<div class="text pt-3 px-3 pb-4 text-center">
+									<h3>Abdur Rehamn</h3>
+									<span class="position text-secondary">Senior Developer</span>
+									<div class="faded">
+										<ul class="ftco-social text-center">
+											<li class="ftco-animate"><a href="https://www.linkedin.com/company/tech-sphere-logix/"
+													class="d-flex align-items-center justify-content-center"><span
+														class="fa fa-linkedin"></span></a></li>
 
-                      <li class="ftco-animate">
-                        <a href="#" class="d-flex align-items-center justify-content-center"><span
-                            class="fa fa-facebook"></span></a>
-                      </li>
+											<li class="ftco-animate"><a href="https://www.facebook.com/profile.php?id=61561550277288&mibextid=ZbWKwL"
+													class="d-flex align-items-center justify-content-center"><span
+														class="fa fa-facebook"></span></a></li>
 
-                      <li class="ftco-animate">
-                        <a href="#" class="d-flex align-items-center justify-content-center"><span
-                            class="fa fa-instagram"></span></a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+											<li class="ftco-animate"><a href="https://www.instagram.com/techspherelogix?igsh=cHgwNzM0bnN0MjJq"
+													class="d-flex align-items-center justify-content-center"><span
+														class="fa fa-instagram"></span></a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
 
   <section class="ftco-section ftco-counter img" id="section-counter" style="background-image: url(images/bg_4.jpg)">
     <div class="overlay"></div>
@@ -460,7 +442,7 @@ session_start(); // Start session
               <span class="flaticon-customer-service"></span>
             </div>
             <div class="text pl-3">
-              <strong class="number" data-number="20">0</strong>
+              <strong class="number" data-number="9">0</strong>
               <span>Services Provide</span>
             </div>
           </div>
@@ -620,17 +602,11 @@ session_start(); // Start session
             <p class="mt-3">
               Your Trusted Partner For Comprehensive IT Solutions
             </p>
-            <ul class="ftco-footer-social list-unstyled mt-0">
-              <li class="ftco-animate">
-                <a href=""><span class="fa fa-linkedin"></span></a>
-              </li>
-              <li class="ftco-animate">
-                <a href=""><span class="fa fa-facebook"></span></a>
-              </li>
-              <li class="ftco-animate">
-                <a href=""><span class="fa fa-instagram"></span></a>
-              </li>
-            </ul>
+          	<ul class="ftco-footer-social list-unstyled mt-0">
+							<li class="ftco-animate"><a href="https://www.linkedin.com/company/tech-sphere-logix/"><span class="fa fa-linkedin"></span></a></li>
+							<li class="ftco-animate"><a href="https://www.facebook.com/profile.php?id=61561550277288&mibextid=ZbWKwL"><span class="fa fa-facebook"></span></a></li>
+							<li class="ftco-animate"><a href="https://www.linkedin.com/company/tech-sphere-logix/"><span class="fa fa-instagram"></span></a></li>
+						</ul>
           </div>
         </div>
         <div class="col-sm-12 col-md">

@@ -1,4 +1,5 @@
 <?php
+<?php
 ob_start(); // Start output buffering
 session_start(); // Start session  
 ?>
@@ -74,15 +75,23 @@ session_start(); // Start session
 				</div>
 
 			</div>
+
+			</div>
 			<div class="collapse navbar-collapse d-none d-md-inline " id="ftco-nav">
 				<ul class="navbar-nav ml-auto">
-					<li class="nav-item active"><a href="index.php" class="nav-link"><i class="fa-solid fa-house me-2"></i>Home</a></li>
-					<li class="nav-item"><a href="about.php" class="nav-link"><i class="fa-solid fa-circle-info me-2"></i>About</a></li>
-					<li class="nav-item"><a href="services.php" class="nav-link"><i class="fa-solid fa-gears me-2"></i>Services</a></li>
-					<li class="nav-item"><a href="projects.php" class="nav-link"><i class="fa-solid fa-hand-holding-hand me-2"></i>Our Projects</a></li>
-					<li class="nav-item"><a href="portfolio.php" class="nav-link"><i class="fa-solid fa-briefcase me-2"></i>Portfolio</a></li>
+					<li class="nav-item active"><a href="index.php" class="nav-link"><i
+								class="fa-solid fa-house me-2"></i>Home</a></li>
+					<li class="nav-item"><a href="about.php" class="nav-link"><i
+								class="fa-solid fa-circle-info me-2"></i>About</a></li>
+					<li class="nav-item"><a href="services.php" class="nav-link"><i
+								class="fa-solid fa-gears me-2"></i>Services</a></li>
+					<li class="nav-item"><a href="projects.php" class="nav-link"><i
+								class="fa-solid fa-hand-holding-hand me-2"></i>Our Projects</a></li>
+					<li class="nav-item"><a href="portfolio.php" class="nav-link"><i
+								class="fa-solid fa-briefcase me-2"></i>Portfolio</a></li>
 
-					<li class="nav-item"><a href="contact.php" class="nav-link"><i class="fa-solid fa-address-book me-2"></i>Contact</a></li>
+					<li class="nav-item"><a href="contact.php" class="nav-link"><i
+								class="fa-solid fa-address-book me-2"></i>Contact</a></li>
 
 				</ul>
 			</div>
@@ -153,6 +162,7 @@ session_start(); // Start session
 								satisfaction and engagement. We focus on enhancing usability and aesthetics for seamless
 								digital experiences.
 							<p>
+							<p>
 						</div>
 						<a href="services.html" class="btn-custom d-flex align-items-center justify-content-center"><span class="fa fa-chevron-right"></span></a>
 					</div>
@@ -166,6 +176,7 @@ session_start(); // Start session
 								business needs, utilizing cutting-edge technology to ensure robust performance and
 								seamless user experiences.
 							<p>
+							<p>
 						</div>
 						<a href="services.html" class="btn-custom d-flex align-items-center justify-content-center"><span class="fa fa-chevron-right"></span></a>
 					</div>
@@ -178,6 +189,7 @@ session_start(); // Start session
 							<p>Tech Sphere Logix enhances brands with captivating visual identities and strategic social
 								media marketing. We create impactful campaigns that resonate and elevate brand presence
 								in the digital landscape.
+							<p>
 							<p>
 						</div>
 						<a href="services.html" class="btn-custom d-flex align-items-center justify-content-center"><span class="fa fa-chevron-right"></span></a>
@@ -246,6 +258,8 @@ session_start(); // Start session
 		</div>
 	</section>
 	<section class="ftco-section py-0">
+	</section>
+	<section class="ftco-section py-0">
 		<!-- visions statement -->
 		<div class="container my-5 vision_main">
 			<div class="row">
@@ -256,7 +270,8 @@ session_start(); // Start session
 								<img src="images/company-vision.png" alt="Icon">
 							</div>
 							<h3 class="card-title fs-2 fw-bolder">Our Vision</h3>
-							<p style="text-align: justify;">To be a global leader in innovative technology solutions, empowering businesses...</p>
+							<p style="text-align: justify;">To be a global leader in innovative technology solutions,
+								empowering businesses...</p>
 							<a href="about.html" class="btn btn-link text-white">Learn more →</a>
 						</div>
 					</div>
@@ -276,6 +291,7 @@ session_start(); // Start session
 			</div>
 		</div>
 	</section>
+	</section>
 
 	<section class="ftco-section bg-darken">
 		<div class="container">
@@ -288,6 +304,7 @@ session_start(); // Start session
 					</div>
 				</div>
 			</div>
+
 
 			<div class="row">
 				<div class="col-md-12">
@@ -472,7 +489,7 @@ session_start(); // Start session
 					<div class="block-18 d-flex align-items-center">
 						<div class="icon d-flex align-items-center justify-content-center"><span class="flaticon-customer-service"></span></div>
 						<div class="text pl-3">
-							<strong class="number" data-number="20">0</strong>
+							<strong class="number" data-number="9">0</strong>
 							<span>Services Provide</span>
 						</div>
 					</div>
@@ -489,6 +506,7 @@ session_start(); // Start session
 			</div>
 		</div>
 	</section>
+
 
 
 	<!-- ======= Portfolio Section ======= -->
@@ -590,6 +608,7 @@ session_start(); // Start session
 
 
 
+
 	<section class="ftco-section ftco-faqs services-section">
 		<div class="overlay"></div>
 		<div class="container">
@@ -624,17 +643,16 @@ session_start(); // Start session
 								</div>
 								<div class="collapse show" id="collapseOne" role="tabpanel" aria-labelledby="headingOne">
 									<div class="card-body py-3 px-0">
-										<ol>
-											<li>Identify IT issues and their impact on operations.</li>
-											<li>Develop tailored solutions aligned with business goals and timelines.
-											</li>
-											<li>Execute fixes with minimal disruption using skilled IT professionals.
-											</li>
-											<li>Regularly review and adjust systems to ensure sustained performance.
-											</li>
-											<li>Provide ongoing maintenance and responsive IT support for reliability.
-											</li>
-										</ol>
+
+
+										<p class="p-faq">
+											We offer comprehensive services including Web, App, and Software development
+											|| Graphic Designing || UI/UX Designing || and expertise in Shopify ||
+											Webflow, and WordPress development, delivering tailored solutions for your
+											Business needs.
+										</p>
+
+
 									</div>
 								</div>
 							</div>
@@ -649,14 +667,11 @@ session_start(); // Start session
 								</div>
 								<div class="collapse" id="collapseTwo" role="tabpanel" aria-labelledby="headingTwo">
 									<div class="card-body py-3 px-0">
-										<ol>
-											<li>Regularly refresh content and software for relevance and security.</li>
-											<li>Monitor traffic and user behavior for informed decision-making.</li>
-											<li>Improve speed, usability, and SEO to enhance user experience.</li>
-											<li>Regularly back up data to prevent loss in unforeseen events.</li>
-											<li>Implement robust security measures to protect against cyber threats.
-											</li>
-										</ol>
+										<p class="p-faq">
+											Our software solutions streamline operations, improve efficiency, and
+											enhance customer experience, leading to increased productivity and business
+											growth.
+										</p>
 									</div>
 								</div>
 							</div>
@@ -671,14 +686,12 @@ session_start(); // Start session
 								</div>
 								<div class="collapse" id="collapseThree" role="tabpanel" aria-labelledby="headingTwo">
 									<div class="card-body py-3 px-0">
-										<ol>
-											<li>Spread investments across various asset classes.</li>
-											<li>Use earned dividends to buy more investment shares.
-											</li>
-											<li>Frequently review and adjust your investment strategies.</li>
-
-											<li>Keep updated on market trends and financial news.</li>
-										</ol>
+										<p class="p-faq">
+											To get our services, simply fill out our <a href="/contact.php"> contact
+												form </a> or email us. We’ll schedule a consultation to discuss your
+											needs, provide a detailed proposal, and once approved, begin working on your
+											project with regular updates and communication.
+										</p>
 									</div>
 								</div>
 							</div>
@@ -693,11 +706,7 @@ session_start(); // Start session
 								</div>
 								<div class="collapse" id="collapseFour" role="tabpanel" aria-labelledby="headingTwo">
 									<div class="card-body py-3 px-0">
-										<p>Businesses need a solid business plan, financial management, market research,
-											compliance with regulations, quality control, reliable suppliers, CRM tools,
-											health and safety measures, data security, and scalability planning for
-											sustainable growth.
-										</p>
+
 									</div>
 								</div>
 							</div>
@@ -710,6 +719,7 @@ session_start(); // Start session
 
 
 
+
 	<footer class="ftco-footer">
 		<div class="container">
 			<div class="row mb-5">
@@ -718,11 +728,18 @@ session_start(); // Start session
 						<a href="index.html">
 							<img src="images/short2.png" width="60" alt="">
 						</a>
+						<a href="index.html">
+							<img src="images/short2.png" width="60" alt="">
+						</a>
 						<p class="mt-3">Your Trusted Partner For Comprehensive IT Solutions</p>
 						<ul class="ftco-footer-social list-unstyled mt-0">
-							<li class="ftco-animate"><a href=""><span class="fa fa-linkedin"></span></a></li>
-							<li class="ftco-animate"><a href=""><span class="fa fa-facebook"></span></a></li>
-							<li class="ftco-animate"><a href=""><span class="fa fa-instagram"></span></a></li>
+							<li class="ftco-animate"><a href="https://www.linkedin.com/company/tech-sphere-logix/"><span
+										class="fa fa-linkedin"></span></a></li>
+							<li class="ftco-animate"><a
+									href="https://www.facebook.com/profile.php?id=61561550277288&mibextid=ZbWKwL"><span
+										class="fa fa-facebook"></span></a></li>
+							<li class="ftco-animate"><a href="https://www.linkedin.com/company/tech-sphere-logix/"><span
+										class="fa fa-instagram"></span></a></li>
 						</ul>
 
 					</div>
@@ -743,15 +760,23 @@ session_start(); // Start session
 					<div class="ftco-footer-widget mb-4 ml-md-4">
 						<h2 class="ftco-heading-2">Services</h2>
 						<ul class="list-unstyled">
-							<li><a href="web1-services.html"><span class="fa fa-chevron-right mr-2"></span>Web Development</a></li>
-							<li><a href="app-services.html"><span class="fa fa-chevron-right mr-2"></span>App Development</a></li>
-							<li><a href="graphic-services.html"><span class="fa fa-chevron-right mr-2"></span>Graphic Designing</a></li>
-							<li><a href="software-services.html"><span class="fa fa-chevron-right mr-2"></span>Software Development</a></li>
-							<li><a href="marketing-services.html"><span class="fa fa-chevron-right mr-2"></span>Digital Marketing</a></li>
+							<li><a href="web1-services.html"><span class="fa fa-chevron-right mr-2"></span>Web
+									Development</a></li>
+							<li><a href="app-services.html"><span class="fa fa-chevron-right mr-2"></span>App
+									Development</a></li>
+							<li><a href="graphic-services.html"><span class="fa fa-chevron-right mr-2"></span>Graphic
+									Designing</a></li>
+							<li><a href="software-services.html"><span class="fa fa-chevron-right mr-2"></span>Software
+									Development</a></li>
+							<li><a href="marketing-services.html"><span class="fa fa-chevron-right mr-2"></span>Digital
+									Marketing</a></li>
 							<li><a href="UXUI.html"><span class="fa fa-chevron-right mr-2"></span>UI/UX</a></li>
 							<li><a href="wordpress-services.html"><span class="fa fa-chevron-right mr-2"></span>Wordpress</a></li>
 							<li><a href="shopify-services.html"><span class="fa fa-chevron-right mr-2"></span>Shopify</a></li>
 							<li><a href="webflow-services.html"><span class="fa fa-chevron-right mr-2"></span>Webflow</a></li>
+
+
+
 
 
 
@@ -769,7 +794,10 @@ session_start(); // Start session
 							<li><a href="contact.html"><span class="fa fa-chevron-right mr-2"></span>Contact</a></li>
 							<li><a href="services.html"><span class="fa fa-chevron-right mr-2"></span>Services</a></li>
 							<li><a href="projects.html"><span class="fa fa-chevron-right mr-2"></span>Projects</a></li>
-							<li><a href="portfolio.html"><span class="fa fa-chevron-right mr-2"></span>Portfolio</a></li>
+							<li><a href="portfolio.html"><span class="fa fa-chevron-right mr-2"></span>Portfolio</a>
+							</li>
+
+
 
 
 
@@ -844,4 +872,5 @@ session_start(); // Start session
 	<script src="js/scrollanimation.js"></script>
 </body>
 
+</html>
 </html>

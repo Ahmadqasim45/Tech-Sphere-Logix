@@ -2,62 +2,56 @@
 session_start(); // Start session
 
 require 'config.php'; // Adjust path to config.php
-require 'PHPMailer-master/src/Exception.php'; // Adjust path to PHPMailer files
-require 'PHPMailer-master/src/PHPMailer.php';
-require 'PHPMailer-master/src/SMTP.php';
+require 'vendor/autoload.php'; // Include SendGrid library
 
-use PHPMailer\PHPMailer\PHPMailer;
-use PHPMailer\PHPMailer\Exception;
+use SendGrid\Mail\Mail;
 
 if (isset($_POST['submit'])) {
-    $name = $conn->real_escape_string($_POST['name']);
-    $email = $conn->real_escape_string($_POST['email']);
-    $phone = $conn->real_escape_string($_POST['phone']);
-    $city = $conn->real_escape_string($_POST['city']);
-    $business_name = $conn->real_escape_string($_POST['business']);
-    $interest = $conn->real_escape_string($_POST['interest']);
-    $message = $conn->real_escape_string($_POST['message']);
-    $current_page = isset($_POST['current_page']) ? $conn->real_escape_string($_POST['current_page']) : 'index.php'; // Default to index.php if not set
+    $name = htmlspecialchars($_POST['name']);
+    $email = htmlspecialchars($_POST['email']);
+    $phone = htmlspecialchars($_POST['phone']);
+    $city = htmlspecialchars($_POST['city']);
+    $business_name = htmlspecialchars($_POST['business']);
+    $interest = htmlspecialchars($_POST['interest']);
+    $message = htmlspecialchars($_POST['message']);
+    $current_page = isset($_POST['current_page']) ? htmlspecialchars($_POST['current_page']) : 'index.php'; // Default to index.php if not set
 
-    // Insert data into the database
-    $sql = "INSERT INTO `form-techspherelogix` (name, email, phone, city, business, interest, message)
-            VALUES ('$name', '$email', '$phone', '$city', '$business_name', '$interest', '$message')";
+    // Use prepared statements to prevent SQL injection
+    $stmt = $conn->prepare("INSERT INTO `form-techspherelogix` (name, email, phone, city, business, interest, message) VALUES (?, ?, ?, ?, ?, ?, ?)");
+    $stmt->bind_param("sssssss", $name, $email, $phone, $city, $business_name, $interest, $message);
 
-    if ($conn->query($sql) === TRUE) {
+    if ($stmt->execute()) {
         // Record inserted successfully
 
-        // Send email using PHPMailer
-        $mail = new PHPMailer(true); // Enable exceptions
+        // Prepare email using SendGrid
+        $sendGridApiKey = 'YOUR_SENDGRID_API_KEY'; // Replace with your SendGrid API key
+        $email = new Mail();
+        $email->setFrom("noreply@yoursite.com", "Tech Sphere Logix");
+        $email->setSubject("Email From Client");
+        $email->addTo("ahmedqasim45ah@gmail.com", "Admin"); // Admin's email
+        $email->addReplyTo($email, $name); // Set Reply-To address to the user's email
+        $emailContent = "Name: $name<br>Email: $email<br>Phone: $phone<br>City: $city<br>Business Name: $business_name<br>Interest: $interest<br>Message: $message";
+        $email->addContent("text/html", $emailContent);
+
+        $sendgrid = new \SendGrid($sendGridApiKey);
+
         try {
-            $mail->SMTPDebug = 2; // Enable verbose debug output
-            $mail->isSMTP();
-            $mail->Host = 'smtp.gmail.com';
-            $mail->SMTPAuth = true;
-            $mail->Username = 'techspherelogix@gmail.com';
-            $mail->Password = 'yupbcbekogeflzqe'; // Use the correct password
-            $mail->SMTPSecure = 'tls'; // Use 'ssl' if you're using port 465
-            $mail->Port = 587; // Use 465 for 'ssl'
-
-            $mail->setFrom($email, $name);
-            $mail->addAddress('techspherelogix@gmail.com');
-
-            $mail->isHTML(true);
-            $mail->Subject = 'Email From Client';
-            $mail->Body = "Name: $name<br>Email: $email<br>Phone: $phone<br>City: $city<br>Business Name: $business_name<br>Interest: $interest<br>Message: $message";
-
-            $mail->send();
-            $_SESSION['message'] = "Thank you for contacting us!";
+            $response = $sendgrid->send($email);
+            if ($response->statusCode() == 202) {
+                $_SESSION['message'] = "Thank you for contacting us!";
+            } else {
+                $_SESSION['message'] = "Mailer Error: Unable to send email.";
+            }
         } catch (Exception $e) {
-            $_SESSION['message'] = 'Mailer Error: ' . $mail->ErrorInfo;
+            $_SESSION['message'] = 'Mailer Error: ' . htmlspecialchars($e->getMessage());
         }
     } else {
-        $_SESSION['message'] = "Error: " . $sql . "<br>" . $conn->error;
+        $_SESSION['message'] = "Error: " . htmlspecialchars($stmt->error);
     }
+
+    $conn->close();
 
     // Redirect based on the current page
     header("Location: " . $current_page);
     exit();
 }
-
-$conn->close();
-?>
