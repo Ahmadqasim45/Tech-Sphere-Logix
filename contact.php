@@ -6,7 +6,7 @@ session_start(); // Start session
 <html lang="en">
 
 <head>
-	<title>Tech Sphere Logix</title>
+	<title>Contact - Tech Sphere Logix</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link
@@ -36,7 +36,10 @@ session_start(); // Start session
 	<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> -->
-
+  <meta name="title" content="Tech Sphere Logix -  Smart Digital Solutions">
+	<meta name="description" content="A leading IT Services Provider Firm dedicated to Digital Solutions.">
+	<meta name="robots" content="index, nofollow">
+	<meta http-equiv="content-language" content="en-gb">
 </head>
 
 <body>

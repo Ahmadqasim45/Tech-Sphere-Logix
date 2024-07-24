@@ -6,7 +6,7 @@ session_start(); // Start session
 <html lang="en">
 
 <head>
-	<title>Tech Sphere Logix</title>
+	<title>Portfolio - Tech Sphere Logix</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link

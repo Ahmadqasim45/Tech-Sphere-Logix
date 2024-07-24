@@ -6,7 +6,7 @@ session_start(); // Start session
 <html lang="en">
 
 <head>
-	<title>Tech Sphere Logix</title>
+	<title>App Developemt Solution - Tech Sphere Logix</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link
@@ -39,6 +39,10 @@ session_start(); // Start session
   <!-- lotifiles -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.12.2/lottie.min.js" integrity="sha512-jEnuDt6jfecCjthQAJ+ed0MTVA++5ZKmlUcmDGBv2vUI/REn6FuIdixLNnQT+vKusE2hhTk2is3cFvv5wA+Sgg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
+  <meta name="title" content="Tech Sphere Logix -  Smart Digital Solutions">
+	<meta name="description" content="A leading IT Services Provider Firm dedicated to Digital Solutions.">
+	<meta name="robots" content="index, nofollow">
+	<meta http-equiv="content-language" content="en-gb">
 </head>
 
 <body>
