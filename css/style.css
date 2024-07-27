@@ -5124,7 +5124,7 @@ textarea.form-control {
 
 
 .form-container-custom {
-    background-color: #09161c9a; /* Black with 70% opacity */
+    background-color: #09161c59; /* Black with 70% opacity */
     padding: 20px;
     max-width: 425px; /* Adjusted width */
     height: fit-content;/* Adjusted height */
@@ -5244,7 +5244,7 @@ textarea.form-control {
   text-align: center;
  
   overflow: hidden;
-  background: #09171c !important;
+  background: linear-gradient(45deg, #09171c, #4674b5, #7edcb9 ) !important;
   padding-bottom: 150px;
 
   
